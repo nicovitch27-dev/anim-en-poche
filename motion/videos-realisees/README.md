@@ -7,6 +7,7 @@ et on remonte (l'autre session fait les jeux de ballon depuis le début → pas 
 
 | # | Jeu | Statut |
 |---|-----|--------|
+| 1721 | Passe la colline | ✅ terminée (YouTube + TikTok + sous-titres) |
 | 1722 | Le wagon fou | ✅ terminée (YouTube + TikTok + sous-titres) |
 | 1723 | Les fourmis blessées | ✅ terminée (YouTube + TikTok + sous-titres) |
 | 055 | Chamboule shoot | ✅ modèle de référence |

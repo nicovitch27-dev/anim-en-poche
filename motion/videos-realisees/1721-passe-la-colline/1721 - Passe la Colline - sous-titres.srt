@@ -1,0 +1,123 @@
+1
+00:00:00,089 --> 00:00:02,237
+Tu cherches un grand classique de la cour,
+
+2
+00:00:02,309 --> 00:00:04,610
+où les attrapeurs sont de plus en plus nombreux ?
+
+3
+00:00:04,630 --> 00:00:06,408
+Voici Passe la Colline !
+
+4
+00:00:07,262 --> 00:00:09,423
+Il te faut seulement deux lignes-refuges,
+
+5
+00:00:09,443 --> 00:00:12,101
+tracées à environ douze mètres l'une de l'autre.
+
+6
+00:00:13,345 --> 00:00:16,565
+Un joueur, le loup, se place au centre.
+
+7
+00:00:16,585 --> 00:00:17,764
+Les autres se répartissent
+
+8
+00:00:17,784 --> 00:00:19,154
+derrière les deux lignes :
+
+9
+00:00:19,174 --> 00:00:21,947
+la moitié d'un côté, la moitié de l'autre.
+
+10
+00:00:22,798 --> 00:00:26,043
+Le loup crie : Passe la colline, viens par ici !
+
+11
+00:00:26,063 --> 00:00:26,974
+Alors,
+
+12
+00:00:26,994 --> 00:00:28,135
+tout le monde traverse pour
+
+13
+00:00:28,155 --> 00:00:30,264
+rejoindre le refuge d'en face.
+
+14
+00:00:31,121 --> 00:00:32,530
+Pendant la traversée,
+
+15
+00:00:32,550 --> 00:00:35,297
+le loup essaie de toucher un maximum de joueurs.
+
+16
+00:00:36,158 --> 00:00:38,204
+Les joueurs touchés restent au centre,
+
+17
+00:00:38,224 --> 00:00:39,454
+et aident le loup à attraper les
+
+18
+00:00:39,474 --> 00:00:41,405
+autres à la traversée suivante.
+
+19
+00:00:42,462 --> 00:00:43,820
+Le jeu continue jusqu'à ce qu'il
+
+20
+00:00:43,840 --> 00:00:45,694
+ne reste qu'un seul joueur libre :
+
+21
+00:00:45,715 --> 00:00:46,741
+c'est le gagnant,
+
+22
+00:00:46,761 --> 00:00:48,984
+et il devient le loup de la partie suivante !
+
+23
+00:00:50,038 --> 00:00:52,735
+Variante : change l'écart entre les lignes,
+
+24
+00:00:52,755 --> 00:00:54,508
+ou impose un mode de déplacement,
+
+25
+00:00:54,528 --> 00:00:56,714
+comme le cloche-pied ou les pas chassés.
+
+26
+00:00:57,582 --> 00:01:00,419
+À retenir : tout le monde traverse au signal,
+
+27
+00:01:00,439 --> 00:01:02,128
+les joueurs touchés aident le loup,
+
+28
+00:01:02,148 --> 00:01:03,760
+et le dernier libre a gagné.
+
+29
+00:01:04,609 --> 00:01:05,929
+Enregistre cette vidéo pour
+
+30
+00:01:05,949 --> 00:01:07,701
+ta prochaine séance de sport,
+
+31
+00:01:07,747 --> 00:01:09,741
+et abonne-toi à Anim en poche !
