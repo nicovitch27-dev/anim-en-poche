@@ -1,0 +1,123 @@
+1
+00:00:00,089 --> 00:00:01,536
+Tu cherches un jeu de poursuite
+
+2
+00:00:01,556 --> 00:00:03,398
+où tout le monde reste en alerte ?
+
+3
+00:00:03,418 --> 00:00:05,387
+Voici Chat Coude à Coude !
+
+4
+00:00:06,241 --> 00:00:09,524
+Aucun matériel : forme simplement des binômes.
+
+5
+00:00:10,977 --> 00:00:13,571
+Chacun s'accroche à un partenaire par le coude,
+
+6
+00:00:13,630 --> 00:00:15,179
+et les paires s'éparpillent.
+
+7
+00:00:15,199 --> 00:00:16,850
+Deux joueurs restent seuls :
+
+8
+00:00:16,870 --> 00:00:18,928
+un poursuivant et un poursuivi.
+
+9
+00:00:19,730 --> 00:00:23,332
+Au signal, le poursuivant court après le poursuivi.
+
+10
+00:00:24,130 --> 00:00:25,360
+Pour se sauver,
+
+11
+00:00:25,380 --> 00:00:26,495
+le poursuivi s'accroche au
+
+12
+00:00:26,515 --> 00:00:28,269
+coude d'un joueur d'une paire.
+
+13
+00:00:28,289 --> 00:00:31,203
+Aussitôt, le joueur à l'autre bout se détache :
+
+14
+00:00:31,223 --> 00:00:32,975
+c'est lui le nouveau poursuivi !
+
+15
+00:00:34,025 --> 00:00:36,301
+Si le poursuivant attrape le poursuivi,
+
+16
+00:00:36,321 --> 00:00:38,405
+celui-ci tourne trois fois sur lui-même,
+
+17
+00:00:38,426 --> 00:00:39,923
+et les rôles s'inversent.
+
+18
+00:00:40,790 --> 00:00:42,581
+Tu peux fixer une limite de temps,
+
+19
+00:00:42,601 --> 00:00:44,494
+pour que tout le monde participe.
+
+20
+00:00:45,758 --> 00:00:46,848
+Variante :
+
+21
+00:00:46,868 --> 00:00:49,232
+tenez-vous par la main plutôt que par le coude.
+
+22
+00:00:49,252 --> 00:00:50,558
+Pour un grand groupe,
+
+23
+00:00:50,578 --> 00:00:53,427
+ajoute une deuxième paire poursuivant et poursuivi.
+
+24
+00:00:54,234 --> 00:00:55,362
+À retenir :
+
+25
+00:00:55,382 --> 00:00:57,569
+on s'accroche au coude d'une paire pour se sauver,
+
+26
+00:00:57,589 --> 00:00:59,737
+le joueur à l'autre bout devient poursuivi,
+
+27
+00:00:59,757 --> 00:01:00,987
+et un poursuivi attrapé tourne
+
+28
+00:01:01,007 --> 00:01:02,925
+trois fois puis devient poursuivant.
+
+29
+00:01:03,761 --> 00:01:05,081
+Enregistre cette vidéo pour
+
+30
+00:01:05,101 --> 00:01:06,853
+ta prochaine séance de sport,
+
+31
+00:01:06,899 --> 00:01:08,893
+et abonne-toi à Anim en poche !
