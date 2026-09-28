@@ -7,7 +7,7 @@ et on remonte (l'autre session fait les jeux de ballon depuis le début → pas 
 
 | # | Jeu | Statut |
 |---|-----|--------|
-| 1723 | Les fourmis blessées | 🟡 scènes faites, brouillon validable — voix + rendu final à faire |
+| 1723 | Les fourmis blessées | ✅ terminée (YouTube + TikTok + sous-titres) |
 | 055 | Chamboule shoot | ✅ modèle de référence |
 | 056 | Balle assise | dossier existant |
 | 057 | Pêche interdite | dossier existant |
