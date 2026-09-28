@@ -7,6 +7,7 @@ et on remonte (l'autre session fait les jeux de ballon depuis le début → pas 
 
 | # | Jeu | Statut |
 |---|-----|--------|
+| 1712 | La boule de laine | ✅ terminée (YouTube + TikTok + sous-titres) |
 | 1719 | Chat coude à coude | ✅ terminée (YouTube + TikTok + sous-titres) |
 | 1702 | Les radeaux | ✅ terminée (YouTube + TikTok + sous-titres) |
 | 1716 | Limonade | ✅ terminée (YouTube + TikTok + sous-titres) |
