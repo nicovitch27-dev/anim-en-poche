@@ -1,0 +1,119 @@
+1
+00:00:00,050 --> 00:00:02,135
+Tu cherches un jeu qui mélange mime,
+
+2
+00:00:02,155 --> 00:00:03,831
+devinette et course-poursuite ?
+
+3
+00:00:03,851 --> 00:00:05,552
+Voici Limonade !
+
+4
+00:00:06,398 --> 00:00:07,705
+Il te faut deux lignes,
+
+5
+00:00:07,725 --> 00:00:09,528
+tracées aux deux bouts du terrain.
+
+6
+00:00:10,765 --> 00:00:14,150
+Forme deux équipes, alignées chacune sur sa ligne.
+
+7
+00:00:14,170 --> 00:00:16,739
+La première équipe choisit en secret un lieu,
+
+8
+00:00:16,772 --> 00:00:18,180
+et un métier à mimer.
+
+9
+00:00:19,054 --> 00:00:21,674
+Elle avance au centre en disant : Nous voilà !
+
+10
+00:00:21,694 --> 00:00:24,213
+L'autre équipe demande : D'où venez-vous ?
+
+11
+00:00:24,233 --> 00:00:26,406
+Puis : Quel est votre métier ?
+
+12
+00:00:26,426 --> 00:00:28,650
+Réponse : Limonade !
+
+13
+00:00:29,526 --> 00:00:31,853
+Alors, elle mime le métier choisi,
+
+14
+00:00:31,873 --> 00:00:34,390
+et l'autre équipe crie ses idées pour le deviner.
+
+15
+00:00:35,246 --> 00:00:36,718
+Dès que quelqu'un trouve,
+
+16
+00:00:36,738 --> 00:00:39,486
+les mimes font demi-tour et courent vers leur ligne.
+
+17
+00:00:39,506 --> 00:00:41,896
+Les joueurs attrapés changent d'équipe !
+
+18
+00:00:42,929 --> 00:00:44,937
+Ensuite, on inverse les rôles :
+
+19
+00:00:44,957 --> 00:00:46,671
+c'est l'autre équipe qui mime.
+
+20
+00:00:47,921 --> 00:00:50,019
+Variante : mime des animaux,
+
+21
+00:00:50,039 --> 00:00:51,791
+des sports ou des personnages,
+
+22
+00:00:51,850 --> 00:00:52,850
+ou demande à toute l'équipe de
+
+23
+00:00:52,870 --> 00:00:54,546
+mimer la même chose en même temps.
+
+24
+00:00:55,393 --> 00:00:56,469
+À retenir :
+
+25
+00:00:56,541 --> 00:00:59,034
+on choisit un métier en secret, on le mime,
+
+26
+00:00:59,054 --> 00:01:00,322
+et dès qu'il est deviné,
+
+27
+00:01:00,342 --> 00:01:02,681
+on court vers sa ligne pour ne pas être attrapé.
+
+28
+00:01:03,537 --> 00:01:04,857
+Enregistre cette vidéo pour
+
+29
+00:01:04,877 --> 00:01:06,629
+ta prochaine séance de sport,
+
+30
+00:01:06,675 --> 00:01:08,669
+et abonne-toi à Anim en poche !
