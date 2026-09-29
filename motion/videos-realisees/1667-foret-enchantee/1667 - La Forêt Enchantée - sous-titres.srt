@@ -1,0 +1,127 @@
+1
+00:00:00,089 --> 00:00:01,600
+Tu cherches un jeu de poursuite
+
+2
+00:00:01,620 --> 00:00:03,437
+où l'on se transforme en arbre ?
+
+3
+00:00:03,457 --> 00:00:05,438
+Voici La Forêt Enchantée !
+
+4
+00:00:06,250 --> 00:00:09,010
+Le matériel : un dossard pour le lutin,
+
+5
+00:00:09,095 --> 00:00:10,057
+et des plots pour un terrain
+
+6
+00:00:10,077 --> 00:00:12,109
+d'environ dix mètres sur quinze.
+
+7
+00:00:13,306 --> 00:00:15,404
+Tous les joueurs sont sur le terrain.
+
+8
+00:00:15,424 --> 00:00:17,688
+Le lutin, avec son dossard,
+
+9
+00:00:17,708 --> 00:00:19,370
+doit toucher tous les bûcherons.
+
+10
+00:00:20,178 --> 00:00:22,288
+Un bûcheron touché devient un arbre :
+
+11
+00:00:22,308 --> 00:00:23,653
+ses pieds ne bougent plus,
+
+12
+00:00:23,673 --> 00:00:26,446
+mais il agite ses branches, ses bras et ses mains.
+
+13
+00:00:27,881 --> 00:00:29,048
+Un arbre peut toucher les
+
+14
+00:00:29,068 --> 00:00:31,049
+bûcherons qui passent à sa portée.
+
+15
+00:00:31,069 --> 00:00:33,344
+Touché par le lutin ou par un arbre,
+
+16
+00:00:33,391 --> 00:00:35,309
+on devient un arbre à son tour.
+
+17
+00:00:36,958 --> 00:00:37,895
+Attention :
+
+18
+00:00:37,915 --> 00:00:40,254
+personne ne doit sortir des limites du terrain,
+
+19
+00:00:40,274 --> 00:00:41,975
+sinon il devient un arbre !
+
+20
+00:00:42,822 --> 00:00:44,766
+Le dernier bûcheron à n'avoir jamais été
+
+21
+00:00:44,786 --> 00:00:47,788
+touché devient le lutin de la partie suivante.
+
+22
+00:00:49,662 --> 00:00:52,193
+Variante : change la taille du terrain,
+
+23
+00:00:52,213 --> 00:00:53,634
+ou le nombre de lutins.
+
+24
+00:00:53,654 --> 00:00:55,025
+Les arbres peuvent avoir le droit
+
+25
+00:00:55,045 --> 00:00:57,626
+de pivoter sur place… ou non !
+
+26
+00:00:58,489 --> 00:01:01,097
+À retenir : le lutin touche les bûcherons,
+
+27
+00:01:01,117 --> 00:01:02,309
+chaque bûcheron touché devient
+
+28
+00:01:02,329 --> 00:01:04,093
+un arbre qui touche à son tour,
+
+29
+00:01:04,127 --> 00:01:05,688
+et le dernier devient lutin !
+
+30
+00:01:06,537 --> 00:01:07,857
+Enregistre cette vidéo pour
+
+31
+00:01:07,877 --> 00:01:09,629
+ta prochaine séance de sport,
+
+32
+00:01:09,675 --> 00:01:11,669
+et abonne-toi à Anim en poche !

@@ -1,0 +1,143 @@
+1
+00:00:00,050 --> 00:00:02,237
+Tu cherches un jeu de poursuite par équipes,
+
+2
+00:00:02,257 --> 00:00:03,692
+plein de suspense ?
+
+3
+00:00:03,712 --> 00:00:05,387
+Voici Les Trois Tapes !
+
+4
+00:00:06,202 --> 00:00:09,486
+Aucun matériel : juste deux lignes tracées au sol,
+
+5
+00:00:09,506 --> 00:00:11,092
+pour plus de six joueurs.
+
+6
+00:00:12,337 --> 00:00:13,733
+Deux équipes égales se placent
+
+7
+00:00:13,753 --> 00:00:15,340
+chacune derrière sa ligne,
+
+8
+00:00:15,360 --> 00:00:17,074
+les mains tendues devant elles.
+
+9
+00:00:17,926 --> 00:00:20,138
+Le premier joueur d'une équipe est le tapeur :
+
+10
+00:00:20,158 --> 00:00:22,090
+il avance jusqu'à la ligne adverse,
+
+11
+00:00:22,110 --> 00:00:24,002
+et tape dans les mains de trois joueurs.
+
+12
+00:00:24,818 --> 00:00:26,163
+Le troisième joueur tapé
+
+13
+00:00:26,183 --> 00:00:28,166
+s'élance aussitôt à sa poursuite,
+
+14
+00:00:28,186 --> 00:00:29,301
+pendant que le tapeur court
+
+15
+00:00:29,321 --> 00:00:31,213
+se réfugier derrière sa ligne.
+
+16
+00:00:32,665 --> 00:00:34,826
+Si le tapeur est touché avant d'arriver,
+
+17
+00:00:34,846 --> 00:00:36,816
+il devient prisonnier de l'autre équipe,
+
+18
+00:00:36,836 --> 00:00:38,717
+et se place derrière son poursuivant.
+
+19
+00:00:38,737 --> 00:00:39,584
+Sinon,
+
+20
+00:00:39,604 --> 00:00:42,198
+c'est le poursuivant qui devient son prisonnier.
+
+21
+00:00:43,641 --> 00:00:44,348
+Puis,
+
+22
+00:00:44,368 --> 00:00:45,445
+c'est au premier joueur de
+
+23
+00:00:45,465 --> 00:00:47,409
+l'autre équipe d'être le tapeur.
+
+24
+00:00:47,429 --> 00:00:50,113
+Les prisonniers suivent celui qui les a capturés :
+
+25
+00:00:50,133 --> 00:00:53,262
+libérés s'il perd, toujours captifs s'il gagne.
+
+26
+00:00:54,126 --> 00:00:55,624
+Le jeu continue jusqu'à ce qu'une
+
+27
+00:00:55,644 --> 00:00:57,804
+équipe n'ait presque plus de joueurs.
+
+28
+00:00:59,670 --> 00:01:02,494
+Variante : change la distance entre les lignes,
+
+29
+00:01:02,514 --> 00:01:04,306
+ou fais compter le tapeur à voix haute :
+
+30
+00:01:04,326 --> 00:01:06,103
+un, deux, trois !
+
+31
+00:01:06,937 --> 00:01:09,315
+À retenir : trois tapes dans les mains,
+
+32
+00:01:09,335 --> 00:01:11,177
+le troisième poursuit le tapeur,
+
+33
+00:01:11,197 --> 00:01:13,600
+et celui qui perd la course devient prisonnier !
+
+34
+00:01:14,457 --> 00:01:15,777
+Enregistre cette vidéo pour
+
+35
+00:01:15,797 --> 00:01:17,549
+ta prochaine séance de sport,
+
+36
+00:01:17,595 --> 00:01:19,589
+et abonne-toi à Anim en poche !

@@ -1,0 +1,119 @@
+1
+00:00:00,089 --> 00:00:01,345
+Tu cherches un jeu où il faut
+
+2
+00:00:01,365 --> 00:00:03,526
+transporter sans se faire attraper ?
+
+3
+00:00:03,546 --> 00:00:06,178
+Voici Les Déménageurs et les Voleurs !
+
+4
+00:00:07,046 --> 00:00:09,526
+Le matériel : une caisse pleine d'objets,
+
+5
+00:00:09,546 --> 00:00:10,572
+une caisse vide,
+
+6
+00:00:10,592 --> 00:00:12,854
+et des plots pour marquer la zone des voleurs.
+
+7
+00:00:14,089 --> 00:00:16,429
+D'un côté, la caisse pleine.
+
+8
+00:00:16,449 --> 00:00:18,738
+De l'autre, la caisse vide.
+
+9
+00:00:18,758 --> 00:00:21,390
+Et au milieu, la zone des voleurs.
+
+10
+00:00:22,233 --> 00:00:24,445
+Toute la classe joue les déménageurs,
+
+11
+00:00:24,465 --> 00:00:27,225
+sauf deux voleurs, installés dans leur zone.
+
+12
+00:00:28,086 --> 00:00:29,724
+Les déménageurs transportent les objets
+
+13
+00:00:29,744 --> 00:00:31,510
+de la caisse pleine à la caisse vide,
+
+14
+00:00:31,530 --> 00:00:32,964
+un seul objet à la fois,
+
+15
+00:00:32,984 --> 00:00:34,838
+en traversant la zone des voleurs.
+
+16
+00:00:36,489 --> 00:00:38,828
+Si un voleur touche un déménageur,
+
+17
+00:00:38,849 --> 00:00:40,691
+celui-ci lui donne son objet.
+
+18
+00:00:40,711 --> 00:00:42,884
+Puis il repart en chercher un autre.
+
+19
+00:00:44,558 --> 00:00:46,349
+Les déménageurs réussissent quand tous
+
+20
+00:00:46,369 --> 00:00:48,416
+les objets sont dans l'autre caisse.
+
+21
+00:00:48,436 --> 00:00:49,882
+Les voleurs, eux,
+
+22
+00:00:49,902 --> 00:00:51,986
+essaient d'en prendre le plus possible.
+
+23
+00:00:53,646 --> 00:00:56,585
+Variante : agrandis ou réduis l'espace,
+
+24
+00:00:56,605 --> 00:00:58,600
+et fais varier le nombre de voleurs.
+
+25
+00:00:59,462 --> 00:01:01,636
+À retenir : un objet à la fois,
+
+26
+00:01:01,656 --> 00:01:03,677
+traverse la zone sans te faire toucher,
+
+27
+00:01:03,697 --> 00:01:05,296
+et remplis l'autre caisse !
+
+28
+00:01:06,153 --> 00:01:07,473
+Enregistre cette vidéo pour
+
+29
+00:01:07,493 --> 00:01:09,245
+ta prochaine séance de sport,
+
+30
+00:01:09,291 --> 00:01:11,285
+et abonne-toi à Anim en poche !

@@ -7,6 +7,29 @@ et on remonte (l'autre session fait les jeux de ballon depuis le début → pas 
 
 | # | Jeu | Statut |
 |---|-----|--------|
+| 1629 | Les Trois Refuges | ✅ terminée (YouTube + TikTok + sous-titres) |
+| 1630 | Les Belettes | ✅ terminée (YouTube + TikTok + sous-titres) |
+| 1628 | La Maison du loup | ✅ terminée (YouTube + TikTok + sous-titres) |
+| 1631 | La grotte des quarante voleurs | ✅ terminée (YouTube + TikTok + sous-titres) |
+| 1632 | Ali Baba et les quarante voleurs | ✅ terminée (YouTube + TikTok + sous-titres) |
+| 1633 | Les Refuges | ✅ terminée (YouTube + TikTok + sous-titres) |
+| 1634 | Le Relais des Déménageurs | ✅ terminée (YouTube + TikTok + sous-titres) |
+| 1635 | Les Déménageurs et les Voleurs | ✅ terminée (YouTube + TikTok + sous-titres) |
+| 1636 | Les Cercles Mobiles | ✅ terminée (YouTube + TikTok + sous-titres) |
+| 1637 | Les Lapins dans leur Terrier | ✅ terminée (YouTube + TikTok + sous-titres) |
+| 1642 | Chameau Chamois | ✅ terminée (YouTube + TikTok + sous-titres) |
+| 1661 | Ha Ha Ha | ✅ terminée (YouTube + TikTok + sous-titres) |
+| 1662 | Le Meurtrier | ✅ terminée (YouTube + TikTok + sous-titres) |
+| 1663 | La Momie | ✅ terminée (YouTube + TikTok + sous-titres) |
+| 1664 | Tape, Claque, Claquement de Doigts | ✅ terminée (YouTube + TikTok + sous-titres) |
+| 1665 | Le Chamboule-Pièces | ✅ terminée (YouTube + TikTok + sous-titres) |
+| 1666 | Tic ! Tac ! Boom ! | ✅ terminée (YouTube + TikTok + sous-titres) |
+| 1667 | La Forêt Enchantée | ✅ terminée (YouTube + TikTok + sous-titres) |
+| 1668 | Le Bateau Pirate | ✅ terminée (YouTube + TikTok + sous-titres) |
+| 1669 | Espions et Dragons | ✅ terminée (YouTube + TikTok + sous-titres) |
+| 1670 | Les Trois Tapes | ✅ terminée (YouTube + TikTok + sous-titres) |
+| 1672 | Voleurs de Souliers | ✅ terminée (YouTube + TikTok + sous-titres) |
+| 1674 | Le Démineur | ✅ terminée (YouTube + TikTok + sous-titres) |
 | 1677 | Croche-Décroche | ✅ terminée (YouTube + TikTok + sous-titres) |
 | 1678 | Messagers et Combattants | ✅ terminée (YouTube + TikTok + sous-titres) |
 | 1679 | Colorette | ✅ terminée (YouTube + TikTok + sous-titres) |
