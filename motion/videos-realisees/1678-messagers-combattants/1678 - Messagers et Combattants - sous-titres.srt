@@ -1,0 +1,131 @@
+1
+00:00:00,089 --> 00:00:02,480
+Tu cherches un grand jeu de course et d'esquive,
+
+2
+00:00:02,500 --> 00:00:03,805
+pour toute la classe ?
+
+3
+00:00:03,825 --> 00:00:06,241
+Voici Messagers et Combattants !
+
+4
+00:00:07,118 --> 00:00:10,083
+Le matériel : plein de petits messages en papier,
+
+5
+00:00:10,103 --> 00:00:12,480
+des foulards, et des corbeilles vides.
+
+6
+00:00:13,729 --> 00:00:15,507
+Dans la cour, deux camps :
+
+7
+00:00:15,528 --> 00:00:18,110
+celui des messagers, où attendent les messages,
+
+8
+00:00:18,130 --> 00:00:19,322
+et celui des alliés,
+
+9
+00:00:19,342 --> 00:00:21,068
+où attendent les corbeilles vides.
+
+10
+00:00:21,921 --> 00:00:24,312
+Deux équipes égales : les messagers,
+
+11
+00:00:24,332 --> 00:00:25,868
+un foulard à la ceinture,
+
+12
+00:00:25,888 --> 00:00:26,940
+et les combattants,
+
+13
+00:00:26,960 --> 00:00:28,941
+répartis librement sur le terrain.
+
+14
+00:00:29,790 --> 00:00:32,321
+Les messagers transportent les messages un par un,
+
+15
+00:00:32,341 --> 00:00:34,591
+de leur camp jusqu'aux corbeilles des alliés.
+
+16
+00:00:36,038 --> 00:00:37,791
+Les combattants, eux,
+
+17
+00:00:37,811 --> 00:00:40,303
+essaient de décrocher le foulard des messagers.
+
+18
+00:00:41,506 --> 00:00:43,157
+Un messager qui perd son foulard
+
+19
+00:00:43,177 --> 00:00:44,879
+donne son message au combattant,
+
+20
+00:00:44,899 --> 00:00:46,449
+qui lui rend son foulard.
+
+21
+00:00:46,469 --> 00:00:49,139
+Il repart alors chercher un nouveau message.
+
+22
+00:00:50,814 --> 00:00:51,738
+À la fin,
+
+23
+00:00:51,758 --> 00:00:54,033
+on compte les messages arrivés à bon port !
+
+24
+00:00:55,889 --> 00:00:56,890
+Variante :
+
+25
+00:00:56,910 --> 00:00:58,395
+change le nombre de combattants
+
+26
+00:00:58,415 --> 00:01:00,052
+ou la distance entre les camps,
+
+27
+00:01:00,098 --> 00:01:01,927
+et inverse les rôles à la mi-temps.
+
+28
+00:01:02,761 --> 00:01:04,973
+À retenir : un message à la fois,
+
+29
+00:01:04,993 --> 00:01:06,402
+protège ton foulard,
+
+30
+00:01:06,422 --> 00:01:08,901
+et apporte le plus de messages possible aux alliés !
+
+31
+00:01:09,753 --> 00:01:11,073
+Enregistre cette vidéo pour
+
+32
+00:01:11,093 --> 00:01:12,845
+ta prochaine séance de sport,
+
+33
+00:01:12,891 --> 00:01:14,885
+et abonne-toi à Anim en poche !

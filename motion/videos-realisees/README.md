@@ -7,6 +7,10 @@ et on remonte (l'autre session fait les jeux de ballon depuis le début → pas 
 
 | # | Jeu | Statut |
 |---|-----|--------|
+| 1678 | Messagers et Combattants | ✅ terminée (YouTube + TikTok + sous-titres) |
+| 1679 | Colorette | ✅ terminée (YouTube + TikTok + sous-titres) |
+| 1623 | Rapporter dans la caisse | ✅ terminée (YouTube + TikTok + sous-titres) |
+| 1620 | Vider la caisse, remplir la maison | ✅ terminée (YouTube + TikTok + sous-titres) |
 | 1616 | Proies et prédateurs | ✅ terminée (YouTube + TikTok + sous-titres) |
 | 1617 | Le Combat des cercles | ✅ terminée (YouTube + TikTok + sous-titres) |
 | 1680 | Le Lévrier et le Lièvre | ✅ terminée (YouTube + TikTok + sous-titres) |
