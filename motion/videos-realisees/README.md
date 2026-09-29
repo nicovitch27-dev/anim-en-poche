@@ -7,6 +7,7 @@ et on remonte (l'autre session fait les jeux de ballon depuis le début → pas 
 
 | # | Jeu | Statut |
 |---|-----|--------|
+| 1677 | Croche-Décroche | ✅ terminée (YouTube + TikTok + sous-titres) |
 | 1678 | Messagers et Combattants | ✅ terminée (YouTube + TikTok + sous-titres) |
 | 1679 | Colorette | ✅ terminée (YouTube + TikTok + sous-titres) |
 | 1623 | Rapporter dans la caisse | ✅ terminée (YouTube + TikTok + sous-titres) |
