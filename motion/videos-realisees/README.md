@@ -7,6 +7,7 @@ et on remonte (l'autre session fait les jeux de ballon depuis le début → pas 
 
 | # | Jeu | Statut |
 |---|-----|--------|
+| 1709 | Le déménagement | ✅ terminée (YouTube + TikTok + sous-titres) |
 | 1691 | Bonjour prince ou princesse | ✅ terminée (YouTube + TikTok + sous-titres) |
 | 1692 | Le carrefour | ✅ terminée (YouTube + TikTok + sous-titres) |
 | 1694 | Le mur silencieux | ✅ terminée (YouTube + TikTok + sous-titres) |
