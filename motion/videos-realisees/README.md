@@ -7,6 +7,7 @@ et on remonte (l'autre session fait les jeux de ballon depuis le début → pas 
 
 | # | Jeu | Statut |
 |---|-----|--------|
+| 1706 | Multipuzzle | ✅ terminée (YouTube + TikTok + sous-titres) |
 | 1707 | Les phoques | ✅ terminée (YouTube + TikTok + sous-titres) |
 | 1708 | Les souris amoureuses | ✅ terminée (YouTube + TikTok + sous-titres) |
 | 1709 | Le déménagement | ✅ terminée (YouTube + TikTok + sous-titres) |
