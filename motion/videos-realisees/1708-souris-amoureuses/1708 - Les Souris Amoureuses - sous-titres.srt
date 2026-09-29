@@ -1,0 +1,115 @@
+1
+00:00:00,089 --> 00:00:01,549
+Tu cherches un jeu de poursuite
+
+2
+00:00:01,569 --> 00:00:03,411
+où les rôles tournent sans cesse ?
+
+3
+00:00:03,431 --> 00:00:05,540
+Voici Les Souris Amoureuses !
+
+4
+00:00:06,346 --> 00:00:07,615
+Aucun matériel :
+
+5
+00:00:07,635 --> 00:00:10,024
+il te faut juste un nombre pair de joueurs.
+
+6
+00:00:11,481 --> 00:00:14,663
+Un joueur est le chat, un autre la souris isolée.
+
+7
+00:00:14,683 --> 00:00:16,780
+Les autres souris se mettent en cercle,
+
+8
+00:00:16,800 --> 00:00:19,356
+deux par deux, bras dessus bras dessous.
+
+9
+00:00:20,214 --> 00:00:22,872
+Le chat essaie de toucher la souris isolée.
+
+10
+00:00:23,674 --> 00:00:24,981
+Pour se protéger,
+
+11
+00:00:25,001 --> 00:00:26,945
+elle s'accroche au bras d'une souris.
+
+12
+00:00:26,965 --> 00:00:30,185
+Aussitôt, la compagne de cette souris se détache :
+
+13
+00:00:30,205 --> 00:00:32,250
+c'est elle la nouvelle souris isolée !
+
+14
+00:00:33,305 --> 00:00:35,339
+Si la souris isolée est touchée,
+
+15
+00:00:35,359 --> 00:00:36,690
+elle devient le chat.
+
+16
+00:00:38,350 --> 00:00:39,835
+Le jeu s'arrête quand les souris
+
+17
+00:00:39,855 --> 00:00:41,492
+et les chats ont bien couru !
+
+18
+00:00:42,942 --> 00:00:43,904
+Variante :
+
+19
+00:00:43,924 --> 00:00:45,180
+disperse les binômes plutôt
+
+20
+00:00:45,200 --> 00:00:46,608
+que de les mettre en cercle,
+
+21
+00:00:46,628 --> 00:00:49,005
+ou ajoute un deuxième chat pour un grand groupe.
+
+22
+00:00:49,810 --> 00:00:50,950
+À retenir :
+
+23
+00:00:50,984 --> 00:00:52,201
+la souris isolée s'accroche
+
+24
+00:00:52,221 --> 00:00:53,936
+à un binôme pour se protéger,
+
+25
+00:00:53,956 --> 00:00:56,359
+la compagne détachée devient la souris isolée,
+
+26
+00:00:56,379 --> 00:00:58,284
+et une souris touchée devient le chat.
+
+27
+00:00:59,121 --> 00:01:00,441
+Enregistre cette vidéo pour
+
+28
+00:01:00,461 --> 00:01:02,213
+ta prochaine séance de sport,
+
+29
+00:01:02,259 --> 00:01:04,253
+et abonne-toi à Anim en poche !
