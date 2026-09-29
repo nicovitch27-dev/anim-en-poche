@@ -7,6 +7,8 @@ et on remonte (l'autre session fait les jeux de ballon depuis le début → pas 
 
 | # | Jeu | Statut |
 |---|-----|--------|
+| 1617 | Le Combat des cercles | ✅ terminée (YouTube + TikTok + sous-titres) |
+| 1680 | Le Lévrier et le Lièvre | ✅ terminée (YouTube + TikTok + sous-titres) |
 | 1681 | La Course au Hot-dog | ✅ terminée (YouTube + TikTok + sous-titres) |
 | 1682 | Les Lutins et les Farfadets | ✅ terminée (YouTube + TikTok + sous-titres) |
 | 1683 | Le Boula-Boula | ✅ terminée (YouTube + TikTok + sous-titres) |
