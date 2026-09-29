@@ -7,6 +7,24 @@ et on remonte (l'autre session fait les jeux de ballon depuis le début → pas 
 
 | # | Jeu | Statut |
 |---|-----|--------|
+| 1681 | La Course au Hot-dog | ✅ terminée (YouTube + TikTok + sous-titres) |
+| 1682 | Les Lutins et les Farfadets | ✅ terminée (YouTube + TikTok + sous-titres) |
+| 1683 | Le Boula-Boula | ✅ terminée (YouTube + TikTok + sous-titres) |
+| 1684 | La Brique de Feu | ✅ terminée (YouTube + TikTok + sous-titres) |
+| 1685 | Le Menteur | ✅ terminée (YouTube + TikTok + sous-titres) |
+| 1686 | À la Pêche | ✅ terminée (YouTube + TikTok + sous-titres) |
+| 1687 | Les Paires | ✅ terminée (YouTube + TikTok + sous-titres) |
+| 1688 | Huit Fous | ✅ terminée (YouTube + TikTok + sous-titres) |
+| 1689 | Le Bonjour Insolite | ✅ terminée (YouTube + TikTok + sous-titres) |
+| 1690 | Les Cornes | ✅ terminée (YouTube + TikTok + sous-titres) |
+| 1695 | La Ferme Bruyante | ✅ terminée (YouTube + TikTok + sous-titres) |
+| 1697 | La Danse du Labadou | ✅ terminée (YouTube + TikTok + sous-titres) |
+| 1698 | La Machine à Laver le Linge | ✅ terminée (YouTube + TikTok + sous-titres) |
+| 1699 | Les Crocodiles dans le Lac | ✅ terminée (YouTube + TikTok + sous-titres) |
+| 1700 | Le Renard et les Canards | ✅ terminée (YouTube + TikTok + sous-titres) |
+| 1701 | Les Évadés | ✅ terminée (YouTube + TikTok + sous-titres) |
+| 1703 | Le Naufrage | ✅ terminée (YouTube + TikTok + sous-titres) |
+| 1704 | Gare au Renard | ✅ terminée (YouTube + TikTok + sous-titres) |
 | 1705 | L'endormeur | ✅ terminée (YouTube + TikTok + sous-titres) |
 | 1706 | Multipuzzle | ✅ terminée (YouTube + TikTok + sous-titres) |
 | 1707 | Les phoques | ✅ terminée (YouTube + TikTok + sous-titres) |

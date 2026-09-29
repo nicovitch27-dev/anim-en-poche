@@ -1,0 +1,123 @@
+1
+00:00:00,089 --> 00:00:01,944
+Tu cherches un jeu de cartes simple,
+
+2
+00:00:01,964 --> 00:00:03,270
+l'ancêtre du Uno ?
+
+3
+00:00:03,290 --> 00:00:04,876
+Voici Huit Fous !
+
+4
+00:00:05,726 --> 00:00:08,474
+Le matériel : un jeu de cinquante-deux cartes,
+
+5
+00:00:08,494 --> 00:00:09,800
+sans les jokers.
+
+6
+00:00:09,820 --> 00:00:11,598
+De deux à huit joueurs.
+
+7
+00:00:12,802 --> 00:00:15,857
+On distribue cinq cartes cachées à chaque joueur.
+
+8
+00:00:15,877 --> 00:00:19,313
+Le reste forme la pioche, face cachée au centre.
+
+9
+00:00:20,582 --> 00:00:23,979
+Le premier joueur pose une carte, face visible.
+
+10
+00:00:25,225 --> 00:00:27,693
+À ton tour, pose une carte par-dessus :
+
+11
+00:00:27,713 --> 00:00:28,930
+soit de même valeur,
+
+12
+00:00:28,950 --> 00:00:31,583
+et la couleur change ; soit de même couleur,
+
+13
+00:00:31,603 --> 00:00:33,304
+et on continue dans cette couleur.
+
+14
+00:00:34,174 --> 00:00:35,594
+Les huit sont magiques :
+
+15
+00:00:35,666 --> 00:00:37,100
+on peut les jouer à tout moment,
+
+16
+00:00:37,120 --> 00:00:38,121
+et celui qui pose un huit
+
+17
+00:00:38,141 --> 00:00:39,893
+choisit la couleur suivante !
+
+18
+00:00:40,745 --> 00:00:43,659
+Si tu ne peux pas poser, tu pioches une carte.
+
+19
+00:00:43,679 --> 00:00:45,292
+Si tu ne peux toujours pas jouer,
+
+20
+00:00:45,312 --> 00:00:46,681
+tu passes ton tour.
+
+21
+00:00:47,521 --> 00:00:48,955
+Le premier qui s'est débarrassé
+
+22
+00:00:48,975 --> 00:00:50,753
+de toutes ses cartes a gagné !
+
+23
+00:00:52,422 --> 00:00:53,295
+Variante :
+
+24
+00:00:53,315 --> 00:00:55,553
+joue avec deux jeux et sept cartes chacun,
+
+25
+00:00:55,573 --> 00:00:56,815
+ou ajoute des effets :
+
+26
+00:00:56,835 --> 00:00:59,825
+le valet fait passer le tour, l'as inverse le sens.
+
+27
+00:01:00,686 --> 00:01:03,383
+À retenir : même valeur ou même couleur,
+
+28
+00:01:03,403 --> 00:01:04,658
+les huit sont magiques,
+
+29
+00:01:04,678 --> 00:01:06,418
+et le premier sans cartes a gagné.
+
+30
+00:01:07,257 --> 00:01:09,890
+Enregistre cette vidéo pour ta prochaine partie,
+
+31
+00:01:09,910 --> 00:01:11,956
+et abonne-toi à Anim en poche !

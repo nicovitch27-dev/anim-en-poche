@@ -1,0 +1,119 @@
+1
+00:00:00,089 --> 00:00:01,396
+Tu cherches un jeu de cartes où
+
+2
+00:00:01,416 --> 00:00:03,003
+l'on pose plein de questions ?
+
+3
+00:00:03,023 --> 00:00:04,584
+Voici À la Pêche !
+
+4
+00:00:05,438 --> 00:00:08,543
+Le matériel : un jeu de cinquante-deux cartes.
+
+5
+00:00:08,563 --> 00:00:10,455
+De deux à cinq joueurs.
+
+6
+00:00:11,726 --> 00:00:14,844
+Le but : réunir le plus de carrés possible.
+
+7
+00:00:14,864 --> 00:00:18,058
+Un carré, ce sont les quatre cartes de même valeur,
+
+8
+00:00:18,078 --> 00:00:19,945
+par exemple les quatre sept.
+
+9
+00:00:20,754 --> 00:00:23,082
+Chaque joueur reçoit huit cartes.
+
+10
+00:00:23,102 --> 00:00:26,040
+Le reste forme la pioche, face cachée.
+
+11
+00:00:27,297 --> 00:00:28,310
+À ton tour,
+
+12
+00:00:28,330 --> 00:00:30,721
+demande une carte précise à un autre joueur :
+
+13
+00:00:30,741 --> 00:00:31,830
+as-tu des dames ?
+
+14
+00:00:32,681 --> 00:00:34,549
+S'il en a, il te la donne,
+
+15
+00:00:34,569 --> 00:00:36,296
+et tu continues à réclamer.
+
+16
+00:00:37,529 --> 00:00:38,963
+Quand tu complètes un carré,
+
+17
+00:00:38,983 --> 00:00:41,258
+tu le poses devant toi : un point !
+
+18
+00:00:42,085 --> 00:00:45,215
+S'il n'a pas la carte, il répond : à la pêche !
+
+19
+00:00:45,235 --> 00:00:48,173
+Tu pioches une carte, et c'est au joueur suivant.
+
+20
+00:00:49,017 --> 00:00:50,706
+Quand toutes les cartes sont jouées,
+
+21
+00:00:50,726 --> 00:00:52,950
+celui qui a le plus de carrés a gagné.
+
+22
+00:00:54,601 --> 00:00:56,622
+Variante : après un tour,
+
+23
+00:00:56,642 --> 00:00:59,211
+chacun passe une carte de son choix à son voisin.
+
+24
+00:00:59,231 --> 00:01:00,487
+Et pour les plus jeunes,
+
+25
+00:01:00,507 --> 00:01:02,399
+on demande seulement la valeur.
+
+26
+00:01:03,249 --> 00:01:05,538
+À retenir : on demande une valeur,
+
+27
+00:01:05,558 --> 00:01:06,801
+on réunit des carrés,
+
+28
+00:01:06,821 --> 00:01:09,185
+et si l'autre n'en a pas : à la pêche !
+
+29
+00:01:10,025 --> 00:01:12,658
+Enregistre cette vidéo pour ta prochaine partie,
+
+30
+00:01:12,678 --> 00:01:14,724
+et abonne-toi à Anim en poche !

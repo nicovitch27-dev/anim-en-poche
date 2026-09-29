@@ -1,0 +1,123 @@
+1
+00:00:00,089 --> 00:00:01,778
+Tu cherches un jeu de poursuite,
+
+2
+00:00:01,798 --> 00:00:03,373
+drôle et plein d'entraide ?
+
+3
+00:00:03,393 --> 00:00:05,387
+Voici La Course au Hot-dog !
+
+4
+00:00:06,241 --> 00:00:08,504
+Aucun matériel : juste un terrain,
+
+5
+00:00:08,524 --> 00:00:09,932
+pour toute la classe.
+
+6
+00:00:11,198 --> 00:00:13,653
+Les joueurs se dispersent sur le terrain.
+
+7
+00:00:13,673 --> 00:00:15,056
+L'un d'eux est le chat :
+
+8
+00:00:15,076 --> 00:00:16,879
+c'est lui qui poursuit les autres.
+
+9
+00:00:17,682 --> 00:00:20,137
+Au signal, le chat se lance.
+
+10
+00:00:20,157 --> 00:00:22,534
+Tout joueur touché devient une saucisse,
+
+11
+00:00:22,555 --> 00:00:24,026
+et se couche sur le dos.
+
+12
+00:00:25,243 --> 00:00:26,384
+Pour la délivrer,
+
+13
+00:00:26,404 --> 00:00:27,328
+deux joueurs s'allongent de
+
+14
+00:00:27,348 --> 00:00:28,896
+chaque côté de la saucisse,
+
+15
+00:00:28,916 --> 00:00:30,988
+un de chaque côté, jamais du même :
+
+16
+00:00:31,008 --> 00:00:32,186
+ils forment le pain !
+
+17
+00:00:33,017 --> 00:00:35,446
+Quand le hot-dog est complet pendant trois secondes,
+
+18
+00:00:35,466 --> 00:00:37,907
+la saucisse est libre, et repart jouer.
+
+19
+00:00:39,561 --> 00:00:40,586
+Attention :
+
+20
+00:00:40,620 --> 00:00:42,207
+le chat n'a pas le droit de rester à côté
+
+21
+00:00:42,227 --> 00:00:44,579
+des joueurs qui attendent d'être délivrés.
+
+22
+00:00:46,038 --> 00:00:46,975
+Variante :
+
+23
+00:00:46,995 --> 00:00:49,207
+ajoute un deuxième chat pour un grand groupe,
+
+24
+00:00:49,227 --> 00:00:50,304
+ou change le temps à tenir
+
+25
+00:00:50,324 --> 00:00:52,038
+pour délivrer la saucisse.
+
+26
+00:00:52,886 --> 00:00:56,323
+À retenir : touché, tu deviens une saucisse.
+
+27
+00:00:56,343 --> 00:00:57,662
+Deux copains font le pain,
+
+28
+00:00:57,682 --> 00:00:59,855
+trois secondes… et tu es libre !
+
+29
+00:01:00,705 --> 00:01:02,025
+Enregistre cette vidéo pour
+
+30
+00:01:02,045 --> 00:01:03,797
+ta prochaine séance de sport,
+
+31
+00:01:03,843 --> 00:01:05,837
+et abonne-toi à Anim en poche !

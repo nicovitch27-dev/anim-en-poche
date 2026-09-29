@@ -1,0 +1,115 @@
+1
+00:00:00,089 --> 00:00:01,817
+Tu cherches un jeu où toute la classe
+
+2
+00:00:01,837 --> 00:00:03,998
+doit inventer une solution ensemble ?
+
+3
+00:00:04,018 --> 00:00:05,744
+Voici Le Naufrage !
+
+4
+00:00:06,614 --> 00:00:08,660
+Le matériel : des cerceaux,
+
+5
+00:00:08,680 --> 00:00:10,676
+des caissettes, des planchettes,
+
+6
+00:00:10,696 --> 00:00:12,372
+des morceaux de moquette… tout
+
+7
+00:00:12,392 --> 00:00:14,361
+support sur lequel se déplacer.
+
+8
+00:00:15,614 --> 00:00:17,469
+Les enfants sont sur un navire :
+
+9
+00:00:17,489 --> 00:00:20,478
+un espace délimité par des cordes, ou des tapis.
+
+10
+00:00:21,321 --> 00:00:23,712
+Oh non, le navire fait naufrage !
+
+11
+00:00:23,732 --> 00:00:24,847
+Pour se sauver,
+
+12
+00:00:24,867 --> 00:00:27,385
+il faut quitter le bateau le plus vite possible.
+
+13
+00:00:28,254 --> 00:00:29,892
+Les enfants se concertent,
+
+14
+00:00:29,912 --> 00:00:31,027
+puis utilisent le matériel
+
+15
+00:00:31,047 --> 00:00:32,901
+à disposition pour avancer,
+
+16
+00:00:32,935 --> 00:00:34,955
+en posant chaque support devant eux.
+
+17
+00:00:35,822 --> 00:00:38,009
+Ils forment ainsi des chemins de secours,
+
+18
+00:00:38,029 --> 00:00:39,589
+pour gagner le rivage.
+
+19
+00:00:41,425 --> 00:00:42,974
+Chacun sa stratégie :
+
+20
+00:00:42,994 --> 00:00:44,964
+il n'y a pas de solution unique !
+
+21
+00:00:44,984 --> 00:00:47,858
+Le but, c'est de se sauver tous ensemble.
+
+22
+00:00:49,318 --> 00:00:51,964
+Variante : ajoute une contrainte de temps,
+
+23
+00:00:51,984 --> 00:00:54,425
+ou dépose d'autres matériels sur des îlots.
+
+24
+00:00:55,278 --> 00:00:57,401
+À retenir : le navire coule,
+
+25
+00:00:57,421 --> 00:00:59,874
+on forme des chemins de secours avec le matériel,
+
+26
+00:00:59,908 --> 00:01:02,068
+et on gagne le rivage tous ensemble.
+
+27
+00:01:02,905 --> 00:01:04,225
+Enregistre cette vidéo pour
+
+28
+00:01:04,245 --> 00:01:05,997
+ta prochaine séance de sport,
+
+29
+00:01:06,043 --> 00:01:08,037
+et abonne-toi à Anim en poche !
