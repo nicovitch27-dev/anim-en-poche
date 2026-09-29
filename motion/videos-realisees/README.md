@@ -7,6 +7,8 @@ et on remonte (l'autre session fait les jeux de ballon depuis le début → pas 
 
 | # | Jeu | Statut |
 |---|-----|--------|
+| 1626 | Les Moutons dans la bergerie | ✅ terminée (YouTube + TikTok + sous-titres) |
+| 1627 | Le Loup dans les pâturages | ✅ terminée (YouTube + TikTok + sous-titres) |
 | 1629 | Les Trois Refuges | ✅ terminée (YouTube + TikTok + sous-titres) |
 | 1630 | Les Belettes | ✅ terminée (YouTube + TikTok + sous-titres) |
 | 1628 | La Maison du loup | ✅ terminée (YouTube + TikTok + sous-titres) |
