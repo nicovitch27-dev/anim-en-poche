@@ -1,0 +1,123 @@
+1
+00:00:00,050 --> 00:00:02,121
+Tu cherches un grand jeu de poursuite,
+
+2
+00:00:02,155 --> 00:00:04,444
+où chacun est à la fois chasseur et chassé ?
+
+3
+00:00:04,464 --> 00:00:06,663
+Voici Proies et prédateurs !
+
+4
+00:00:07,526 --> 00:00:08,680
+Le matériel :
+
+5
+00:00:08,700 --> 00:00:11,077
+trois lots de chasubles de couleurs différentes,
+
+6
+00:00:11,148 --> 00:00:12,862
+et des plots pour marquer les camps.
+
+7
+00:00:14,113 --> 00:00:15,879
+On forme trois équipes égales :
+
+8
+00:00:15,899 --> 00:00:18,698
+les renards, les poules, et les vipères.
+
+9
+00:00:18,718 --> 00:00:20,266
+Chacune a son camp.
+
+10
+00:00:21,118 --> 00:00:23,203
+Les renards attrapent les poules.
+
+11
+00:00:23,223 --> 00:00:25,141
+Les poules attrapent les vipères.
+
+12
+00:00:25,161 --> 00:00:27,614
+Et les vipères attrapent les renards !
+
+13
+00:00:29,257 --> 00:00:30,870
+Un joueur touché est emmené par
+
+14
+00:00:30,890 --> 00:00:32,541
+son prédateur dans son camp :
+
+15
+00:00:32,561 --> 00:00:33,701
+c'est la prison.
+
+16
+00:00:35,358 --> 00:00:36,499
+Les prisonniers forment une
+
+17
+00:00:36,519 --> 00:00:38,284
+chaîne en se tenant la main.
+
+18
+00:00:38,304 --> 00:00:40,579
+Le premier garde un pied dans le camp.
+
+19
+00:00:41,986 --> 00:00:44,593
+Un partenaire libre délivre toute la chaîne,
+
+20
+00:00:44,639 --> 00:00:46,506
+en touchant un seul prisonnier.
+
+21
+00:00:48,361 --> 00:00:49,642
+On gagne en attrapant toute
+
+22
+00:00:49,662 --> 00:00:51,937
+l'équipe dont on est le prédateur.
+
+23
+00:00:53,598 --> 00:00:56,142
+Variante : change la taille du terrain,
+
+24
+00:00:56,162 --> 00:00:58,067
+ou le nombre de joueurs par équipe.
+
+25
+00:00:58,087 --> 00:01:00,465
+Tu peux aussi autoriser, ou non,
+
+26
+00:01:00,485 --> 00:01:02,492
+à couper la chaîne pour délivrer.
+
+27
+00:01:03,350 --> 00:01:05,702
+À retenir : renard attrape poule,
+
+28
+00:01:05,722 --> 00:01:08,571
+poule attrape vipère, vipère attrape renard !
+
+29
+00:01:09,417 --> 00:01:10,737
+Enregistre cette vidéo pour
+
+30
+00:01:10,757 --> 00:01:12,509
+ta prochaine séance de sport,
+
+31
+00:01:12,555 --> 00:01:14,549
+et abonne-toi à Anim en poche !
