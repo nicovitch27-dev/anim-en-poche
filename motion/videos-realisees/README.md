@@ -7,6 +7,10 @@ et on remonte (l'autre session fait les jeux de ballon depuis le début → pas 
 
 | # | Jeu | Statut |
 |---|-----|--------|
+| 1607 | La Lutte canadienne (funambule) | ✅ terminée (YouTube + TikTok + sous-titres) |
+| 1610 | L'Équilibre du flamant | ✅ terminée (YouTube + TikTok + sous-titres) |
+| 1609 | Le Biathlon | ✅ terminée (YouTube + TikTok + sous-titres) |
+| 1611 | Le Déménagement des animaux | ✅ terminée (YouTube + TikTok + sous-titres) |
 | 1613 | Le Morpion géant (relais) | ✅ terminée (YouTube + TikTok + sous-titres) |
 | 1612 | La Course aux couleurs et aux matières | ✅ terminée (YouTube + TikTok + sous-titres) |
 | 1614 | Le Banc de poissons | ✅ terminée (YouTube + TikTok + sous-titres) |
