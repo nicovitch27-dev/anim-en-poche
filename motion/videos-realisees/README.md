@@ -7,6 +7,7 @@ et on remonte (l'autre session fait les jeux de ballon depuis le début → pas 
 
 | # | Jeu | Statut |
 |---|-----|--------|
+| 1612 | La Course aux couleurs et aux matières | ✅ terminée (YouTube + TikTok + sous-titres) |
 | 1614 | Le Banc de poissons | ✅ terminée (YouTube + TikTok + sous-titres) |
 | 1615 | Le Nœud gordien | ✅ terminée (YouTube + TikTok + sous-titres) |
 | 1626 | Les Moutons dans la bergerie | ✅ terminée (YouTube + TikTok + sous-titres) |
