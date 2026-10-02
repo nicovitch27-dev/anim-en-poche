@@ -102,5 +102,12 @@ et on remonte (l'autre session fait les jeux de ballon depuis le début → pas 
 | 109 | Balle assise cercle | dossier existant |
 | 110 | Balles brûlantes | dossier existant |
 | 1713 | Chasseur d'oiseaux | dossier existant |
+| 164 | La Chasse aux chevreuils | ✅ terminée (YouTube + TikTok) |
+| 166 | Basket bac | ✅ terminée (YouTube + TikTok) |
+| 167 | Ballon marteau | ✅ terminée (YouTube + TikTok) |
+| — | Ballon ciel | ✅ terminée (YouTube + TikTok) |
+| — | Le Chien et le Chat | ✅ terminée (YouTube + TikTok) |
+| — | Protège ton trésor | ✅ terminée (YouTube + TikTok) |
+| — | Ziggy Ziggy | ✅ terminée (YouTube + TikTok) |
 
 Jeux déjà présents dans `anim_en_poche_motion/src/jeux/` (relevé du 28/09/2026) : ne pas les refaire.
