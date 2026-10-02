@@ -1,1 +1,42 @@
-{"publiees": {}}
+{
+  "publiees": {
+    "164-chasse-aux-chevreuils": {
+      "date": "2026-10-02",
+      "titre": "La Chasse aux chevreuils",
+      "resultats": {
+        "youtube": {
+          "ok": true,
+          "id": "8hyEJcjxmOc",
+          "lien": "https://youtu.be/8hyEJcjxmOc",
+          "note": "(miniature ok)"
+        },
+        "youtube_short": {
+          "ok": true,
+          "id": "4L5DhA6SFCg",
+          "lien": "https://youtu.be/4L5DhA6SFCg"
+        },
+        "tiktok": {
+          "ok": true,
+          "id": "v_inbox_file~v2.7692169590079621142",
+          "note": "(brouillon envoyé dans l'appli)",
+          "a_faire": "📱 **TikTok** : ouvre l'appli → notification « brouillon » → colle la légende puis Publier :\n```\nLa Chasse aux chevreuils\n\nTu cherches un grand jeu dynamique et collectif à animer avec ton groupe à l'école, en centre de loisirs ou en colo ? Découvre les règles en vidéo !\n\n#animation #ACM #centredeloisirs #animenpoche #sport\n```"
+        },
+        "instagram": {
+          "ok": false,
+          "erreur": "envoi IG : {'debug_info': {'retriable': False, 'type': 'ProcessingFailedError', 'message': '{\"success\":false,\"error\":{\"message\":\"unknown error\"}}'}}"
+        },
+        "facebook": {
+          "ok": true,
+          "id": "2441071726698912",
+          "lien": "https://www.facebook.com/reel/2441071726698912",
+          "note": "(couverture ok)"
+        },
+        "pinterest": {
+          "ok": true,
+          "note": "(manuel : kit envoyé sur Discord)",
+          "a_faire": "📌 **Pinterest** (à poster à la main) :\n**Titre** : La Chasse aux chevreuils\n**Lien** : https://nicovitch27-dev.github.io/anim-en-poche/\n**Description** :\n```\nLa Chasse aux chevreuils\n\nTu cherches un grand jeu dynamique et collectif à animer avec ton groupe à l'école, en centre de loisirs ou en colo ? Découvre les règles en vidéo !\n\n#animation #ACM #centredeloisirs #animenpoche #sport\n```"
+        }
+      }
+    }
+  }
+}
