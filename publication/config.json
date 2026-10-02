@@ -1,0 +1,37 @@
+{
+  "depot": "nicovitch27-dev/anim-en-poche",
+  "branche_videos": "claude/confident-archimedes-d6w5qr",
+  "dossier_videos": "motion/videos-realisees",
+  "heures_paris_autorisees": [18, 19],
+
+  "prioritaires": [
+    "164-chasse-aux-chevreuils",
+    "166-basket-bac",
+    "167-ballon-marteau",
+    "ballon-ciel",
+    "chien-et-chat",
+    "protege-ton-tresor",
+    "ziggy-ziggy"
+  ],
+
+  "plateformes": {
+    "youtube": true,
+    "youtube_short": true,
+    "tiktok": true,
+    "instagram": true,
+    "facebook": true,
+    "pinterest": true
+  },
+
+  "seconde_couverture": 2,
+  "accroche": "Tu cherches un grand jeu dynamique et collectif à animer avec ton groupe à l'école, en centre de loisirs ou en colo ? Découvre les règles en vidéo !",
+  "hashtags": "#animation #ACM #centredeloisirs #animenpoche #sport",
+
+  "youtube_confidentialite": "public",
+  "youtube_categorie": "27",
+  "ig_user_id": "17841422211918603",
+  "fb_page_id": "1278419738699018",
+  "graph_version": "v26.0",
+  "pinterest_board_id": null,
+  "lien_site": "https://nicovitch27-dev.github.io/anim-en-poche/"
+}
