@@ -16,6 +16,10 @@ on:
         description: "Dossier à publier tout de suite (vide = le suivant)"
         type: string
         default: ""
+      plateformes:
+        description: "Seulement ces plateformes (ex. instagram), vide = toutes"
+        type: string
+        default: ""
 
 permissions:
   contents: write
@@ -51,12 +55,14 @@ jobs:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
           ESSAI: ${{ inputs.essai }}
           FORCER: ${{ inputs.forcer }}
+          PLATEFORMES: ${{ inputs.plateformes }}
         run: |
           ARGS=""
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             ARGS="--ignorer-heure"
             [ "$ESSAI" = "true" ] && ARGS="$ARGS --essai"
             [ -n "$FORCER" ] && ARGS="$ARGS --forcer $FORCER"
+            [ -n "$PLATEFORMES" ] && ARGS="$ARGS --plateformes $PLATEFORMES"
           fi
           python publication/publier.py $ARGS
       - name: Enregistrer le registre

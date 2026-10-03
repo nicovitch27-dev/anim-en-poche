@@ -16,18 +16,30 @@ def _verif(r, etape):
     return d
 
 
-def instagram(video, meta, config):
-    g = f"https://graph.facebook.com/{config['graph_version']}"
-    taille = os.path.getsize(video)
-    c = _verif(requests.post(f"{g}/{config['ig_user_id']}/media", headers=_h(), data={
+def _ig_conteneur(g, meta, config):
+    return _verif(requests.post(f"{g}/{config['ig_user_id']}/media", headers=_h(), data={
         "media_type": "REELS", "upload_type": "resumable", "share_to_feed": "true",
         "caption": meta["description"],
         "thumb_offset": str(config["seconde_couverture"] * 1000),  # couverture = image à 2 s
     }, timeout=60), "création conteneur IG")
-    with open(video, "rb") as f:
-        _verif(requests.post(f"https://rupload.facebook.com/ig-api-upload/{config['graph_version']}/{c['id']}",
-                             headers={**_h(), "offset": "0", "file_size": str(taille)}, data=f, timeout=900),
-               "envoi IG")
+
+
+def instagram(video, meta, config, url_publique=None):
+    g = f"https://graph.facebook.com/{config['graph_version']}"
+    envoi = f"https://rupload.facebook.com/ig-api-upload/{config['graph_version']}"
+    c = _ig_conteneur(g, meta, config)
+    try:
+        contenu = open(video, "rb").read()  # corps en un bloc avec Content-Length
+        _verif(requests.post(f"{envoi}/{c['id']}", headers={
+            **_h(), "offset": "0", "file_size": str(len(contenu)), "Content-Type": "application/octet-stream",
+        }, data=contenu, timeout=900), "envoi IG")
+    except RuntimeError:
+        if not url_publique:
+            raise
+        # Plan B : Instagram va chercher lui-même la vidéo sur GitHub
+        c = _ig_conteneur(g, meta, config)
+        _verif(requests.post(f"{envoi}/{c['id']}", headers={**_h(), "file_url": url_publique}, timeout=300),
+               "envoi IG par URL")
     for _ in range(40):
         time.sleep(15)
         s = _verif(requests.get(f"{g}/{c['id']}", headers=_h(), params={"fields": "status_code,status"}, timeout=30),
@@ -36,9 +48,12 @@ def instagram(video, meta, config):
             break
         if s.get("status_code") == "ERROR":
             raise RuntimeError(f"Instagram a refusé la vidéo : {s.get('status')}")
+    else:
+        raise RuntimeError("Instagram n'a pas fini de traiter la vidéo en 10 min")
     p = _verif(requests.post(f"{g}/{config['ig_user_id']}/media_publish", headers=_h(),
                              data={"creation_id": c["id"]}, timeout=60), "publication IG")
-    return {"id": p["id"]}
+    lien = requests.get(f"{g}/{p['id']}", headers=_h(), params={"fields": "permalink"}, timeout=30).json().get("permalink", "")
+    return {"id": p["id"], "lien": lien}
 
 
 def facebook(video, couverture, duree, meta, config):

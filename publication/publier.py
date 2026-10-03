@@ -83,8 +83,12 @@ def ordre(videos):
     return sorted(videos.values(), key=cle)
 
 
+def url_brute(chemin):
+    return f"https://raw.githubusercontent.com/{CONFIG['depot']}/{CONFIG['branche_videos']}/{quote(chemin)}"
+
+
 def telecharger(chemin, dest):
-    url = f"https://raw.githubusercontent.com/{CONFIG['depot']}/{CONFIG['branche_videos']}/{quote(chemin)}"
+    url = url_brute(chemin)
     with requests.get(url, stream=True, timeout=300) as r:
         r.raise_for_status()
         with open(dest, "wb") as f:
@@ -124,6 +128,7 @@ def main():
     ap.add_argument("--essai", action="store_true", help="ne publie rien")
     ap.add_argument("--forcer", help="dossier à publier (ex. ziggy-ziggy)")
     ap.add_argument("--ignorer-heure", action="store_true")
+    ap.add_argument("--plateformes", help="limiter à certaines plateformes, ex. instagram,facebook")
     args = ap.parse_args()
 
     maintenant = datetime.now(PARIS)
@@ -158,7 +163,10 @@ def main():
         return 0
 
     resultats = {}
-    pl = CONFIG["plateformes"]
+    pl = dict(CONFIG["plateformes"])
+    if args.plateformes:
+        voulues = {x.strip() for x in args.plateformes.split(",") if x.strip()}
+        pl = {k: (v and k in voulues) for k, v in pl.items()}
     with tempfile.TemporaryDirectory() as tmp:
         tmp = Path(tmp)
         horiz = vert = None
@@ -186,24 +194,25 @@ def main():
         lancer("youtube", pl["youtube"], youtube.publier, horiz, cov_h, meta_, CONFIG)
         lancer("youtube_short", pl["youtube_short"], youtube.publier, vert, None, meta_, CONFIG)
         lancer("tiktok", pl["tiktok"], tiktok.publier, vert, meta_)
-        lancer("instagram", pl["instagram"], meta.instagram, vert, meta_, CONFIG)
+        lancer("instagram", pl["instagram"], meta.instagram, vert, meta_, CONFIG,
+               url_brute(choix["tiktok"]["chemin"]) if vert else None)
         lancer("facebook", pl["facebook"], meta.facebook, vert, cov_v, duree(vert) if vert else 0, meta_, CONFIG)
         lancer("pinterest", pl["pinterest"], pinterest.publier, vert, meta_, CONFIG)
 
     reussites = [k for k, v in resultats.items() if v["ok"]]
+    deja = choix["dossier"] in reg["publiees"]
     if reussites:
-        reg["publiees"][choix["dossier"]] = {
-            "date": aujourdhui, "titre": meta_["titre"], "resultats": resultats,
-        }
+        entree = reg["publiees"].setdefault(choix["dossier"], {"date": aujourdhui, "titre": meta_["titre"], "resultats": {}})
+        entree["resultats"].update(resultats)  # un rattrapage garde la date d'origine
         ecrire_registre(reg)
 
-    lignes = [f"🎬 **{meta_['titre']}** (`{choix['dossier']}`) — {restantes - (1 if reussites else 0)} vidéos restantes"]
+    lignes = [f"🎬 **{meta_['titre']}** (`{choix['dossier']}`) — {restantes - (1 if reussites and not deja else 0)} vidéos restantes"]
     for k, v in resultats.items():
         if v["ok"]:
             lignes.append(f"✅ {k} {v.get('lien', '')} {v.get('note', '')}".rstrip())
         else:
             lignes.append(f"❌ {k} : {v['erreur']}")
-    if not reussites:
+    if not reussites and not deja:
         lignes.append("⚠️ Rien n'a marché : la vidéo n'est pas consommée, elle sera retentée.")
     discord.envoyer("\n".join(lignes))
     for k, v in resultats.items():
