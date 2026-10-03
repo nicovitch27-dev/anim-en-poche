@@ -22,8 +22,9 @@
           "a_faire": "📱 **TikTok** : ouvre l'appli → notification « brouillon » → colle la légende puis Publier :\n```\nLa Chasse aux chevreuils\n\nTu cherches un grand jeu dynamique et collectif à animer avec ton groupe à l'école, en centre de loisirs ou en colo ? Découvre les règles en vidéo !\n\n#animation #ACM #centredeloisirs #animenpoche #sport\n```"
         },
         "instagram": {
-          "ok": false,
-          "erreur": "envoi IG : {'debug_info': {'retriable': False, 'type': 'ProcessingFailedError', 'message': '{\"success\":false,\"error\":{\"message\":\"unknown error\"}}'}}"
+          "ok": true,
+          "id": "18331384357263337",
+          "lien": "https://www.instagram.com/reel/DeB8-B5Dw1N/"
         },
         "facebook": {
           "ok": true,
