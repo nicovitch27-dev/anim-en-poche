@@ -20,6 +20,10 @@ on:
         description: "Seulement ces plateformes (ex. instagram), vide = toutes"
         type: string
         default: ""
+      miniature:
+        description: "Refaire seulement la miniature YouTube de ce dossier"
+        type: string
+        default: ""
 
 permissions:
   contents: write
@@ -40,7 +44,7 @@ jobs:
       - name: Outils
         run: |
           sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null
-          pip install -q requests
+          pip install -q requests pillow
       - name: Publier
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -56,6 +60,7 @@ jobs:
           ESSAI: ${{ inputs.essai }}
           FORCER: ${{ inputs.forcer }}
           PLATEFORMES: ${{ inputs.plateformes }}
+          MINIATURE: ${{ inputs.miniature }}
         run: |
           ARGS=""
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
@@ -63,6 +68,7 @@ jobs:
             [ "$ESSAI" = "true" ] && ARGS="$ARGS --essai"
             [ -n "$FORCER" ] && ARGS="$ARGS --forcer $FORCER"
             [ -n "$PLATEFORMES" ] && ARGS="$ARGS --plateformes $PLATEFORMES"
+            [ -n "$MINIATURE" ] && ARGS="--refaire-miniature $MINIATURE"
           fi
           python publication/publier.py $ARGS
       - name: Enregistrer le registre

@@ -22,6 +22,7 @@ import requests
 ICI = Path(__file__).resolve().parent
 sys.path.insert(0, str(ICI))
 from plateformes import discord, meta, pinterest, tiktok, youtube  # noqa: E402
+from miniature import generer_miniature  # noqa: E402
 
 CONFIG = json.loads((ICI / "config.json").read_text())
 REGISTRE = ICI / "publications.json"
@@ -108,6 +109,15 @@ def couverture(video, dest):
     return dest
 
 
+def miniature_youtube(titre, video, dest):
+    """Miniature maison (fond Anim en poche + nom du jeu), sinon l'image à 2 s."""
+    try:
+        return generer_miniature.generer(titre, str(dest))
+    except Exception:
+        traceback.print_exc()
+        return couverture(video, dest)
+
+
 def duree(video):
     out = subprocess.run(
         ["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(video)],
@@ -129,7 +139,12 @@ def main():
     ap.add_argument("--forcer", help="dossier à publier (ex. ziggy-ziggy)")
     ap.add_argument("--ignorer-heure", action="store_true")
     ap.add_argument("--plateformes", help="limiter à certaines plateformes, ex. instagram,facebook")
+    ap.add_argument("--refaire-miniature", metavar="DOSSIER",
+                    help="remplace la miniature YouTube d'une vidéo déjà publiée")
     args = ap.parse_args()
+
+    if args.refaire_miniature:
+        return refaire_miniature(args.refaire_miniature)
 
     maintenant = datetime.now(PARIS)
     aujourdhui = maintenant.date().isoformat()
@@ -172,7 +187,7 @@ def main():
         horiz = vert = None
         if "youtube" in choix:
             horiz = telecharger(choix["youtube"]["chemin"], tmp / "horizontal.mp4")
-            couverture(horiz, tmp / "couverture_169.jpg")
+            miniature_youtube(choix["titre"], horiz, tmp / "couverture_169.jpg")
         if "tiktok" in choix:
             vert = telecharger(choix["tiktok"]["chemin"], tmp / "vertical.mp4")
             couverture(vert, tmp / "couverture_916.jpg")
@@ -197,7 +212,8 @@ def main():
         lancer("instagram", pl["instagram"], meta.instagram, vert, meta_, CONFIG,
                url_brute(choix["tiktok"]["chemin"]) if vert else None)
         lancer("facebook", pl["facebook"], meta.facebook, vert, cov_v, duree(vert) if vert else 0, meta_, CONFIG)
-        lancer("pinterest", pl["pinterest"], pinterest.publier, vert, meta_, CONFIG)
+        lancer("pinterest", pl["pinterest"], pinterest.publier, vert, meta_, CONFIG,
+               url_brute(choix["tiktok"]["chemin"]) if vert else None)
 
     reussites = [k for k, v in resultats.items() if v["ok"]]
     deja = choix["dossier"] in reg["publiees"]
@@ -220,6 +236,19 @@ def main():
             discord.envoyer(v["a_faire"])
 
     return 0 if reussites else 1
+
+
+def refaire_miniature(dossier):
+    entree = lire_registre()["publiees"].get(dossier, {})
+    vid = entree.get("resultats", {}).get("youtube", {}).get("id")
+    if not vid:
+        print(f"Pas de vidéo YouTube enregistrée pour {dossier}")
+        return 1
+    with tempfile.TemporaryDirectory() as tmp:
+        image = generer_miniature.generer(entree["titre"], str(Path(tmp) / "miniature.jpg"))
+        note = youtube.miniature(vid, image)
+    discord.envoyer(f"🖼️ Miniature YouTube de **{entree['titre']}** : {note} https://youtu.be/{vid}")
+    return 0 if "ok" in note else 1
 
 
 if __name__ == "__main__":

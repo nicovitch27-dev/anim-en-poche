@@ -7,12 +7,17 @@ import requests
 API = "https://api.pinterest.com/v5"
 
 
-def publier(video, meta, config):
+def publier(video, meta, config, url_video=None):
     tok, board = os.environ.get("PINTEREST_TOKEN"), config.get("pinterest_board_id")
     if not tok or not board:
         return {"note": "(manuel : kit envoyé sur Discord)", "a_faire": (
-            f"📌 **Pinterest** (à poster à la main) :\n**Titre** : {meta['titre']}\n"
-            f"**Lien** : {config['lien_site']}\n**Description** :\n```\n{meta['description']}\n```")}
+            "📌 **Pinterest** (à poster à la main, 2 min) :\n"
+            f"1. Télécharge la vidéo : {url_video or '(voir le dépôt)'}\n"
+            "2. Appli Pinterest → **+** → **Épingle** → choisis la vidéo\n"
+            f"3. **Titre** : `{meta['titre']}`\n"
+            f"4. **Lien** : `{config['lien_site']}`\n"
+            "5. **Description** : colle le bloc ci-dessous, choisis le tableau, puis **Publier**\n"
+            f"```\n{meta['description']}\n```")}
     h = {"Authorization": f"Bearer {tok}"}
     m = requests.post(f"{API}/media", headers=h, json={"media_type": "video"}, timeout=60)
     m.raise_for_status()

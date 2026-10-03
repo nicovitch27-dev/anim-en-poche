@@ -42,9 +42,14 @@ def publier(video, couverture, meta, config):
     vid = r.json()["id"]
     res = {"id": vid, "lien": f"https://youtu.be/{vid}"}
     if couverture:
-        with open(couverture, "rb") as f:
-            t = requests.post(
-                f"https://www.googleapis.com/upload/youtube/v3/thumbnails/set?videoId={vid}&uploadType=media",
-                headers={"Authorization": f"Bearer {tok}", "Content-Type": "image/jpeg"}, data=f, timeout=120)
-        res["note"] = "(miniature ok)" if t.ok else f"(miniature refusée : {t.text[:150]})"
+        res["note"] = miniature(vid, couverture, tok)
     return res
+
+
+def miniature(vid, image, tok=None):
+    """Pose (ou remplace) la miniature d'une vidéo déjà en ligne."""
+    with open(image, "rb") as f:
+        t = requests.post(
+            f"https://www.googleapis.com/upload/youtube/v3/thumbnails/set?videoId={vid}&uploadType=media",
+            headers={"Authorization": f"Bearer {tok or jeton()}", "Content-Type": "image/jpeg"}, data=f, timeout=120)
+    return "(miniature ok)" if t.ok else f"(miniature refusée : {t.text[:150]})"
