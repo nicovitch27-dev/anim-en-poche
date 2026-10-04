@@ -2,10 +2,10 @@ name: Publication quotidienne
 
 on:
   schedule:
-    # 18h à Paris : 16h UTC l'été, 17h UTC l'hiver. Le script vérifie l'heure de Paris
-    # et ne publie qu'une vidéo par jour, donc les deux lignes ne font jamais doublon.
-    - cron: "0 16 * * *"
-    - cron: "0 17 * * *"
+    # GitHub retarde (parfois de 3 h) ou saute les déclenchements programmés, surtout
+    # à l'heure pile. On tente donc toutes les 30 min de 16h à 22h UTC, à des minutes
+    # creuses : le script attend 18h à Paris et ne publie qu'une vidéo par jour.
+    - cron: "7,37 16-21 * * *"
   workflow_dispatch:
     inputs:
       essai:
@@ -38,6 +38,8 @@ jobs:
     timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main  # dernier registre, même si un autre passage vient de publier
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"

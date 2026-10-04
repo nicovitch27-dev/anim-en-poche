@@ -150,7 +150,7 @@ def main():
     aujourdhui = maintenant.date().isoformat()
     reg = lire_registre()
 
-    if not args.ignorer_heure and maintenant.hour not in CONFIG["heures_paris_autorisees"]:
+    if not args.ignorer_heure and maintenant.hour < CONFIG["heure_paris_debut"]:
         print(f"Il est {maintenant:%H:%M} à Paris : pas l'heure de publier.")
         return 0
     if not args.forcer and any(p.get("date") == aujourdhui for p in reg["publiees"].values()):
