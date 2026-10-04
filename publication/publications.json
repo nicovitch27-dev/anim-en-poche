@@ -38,6 +38,45 @@
           "a_faire": "📌 **Pinterest** (à poster à la main) :\n**Titre** : La Chasse aux chevreuils\n**Lien** : https://nicovitch27-dev.github.io/anim-en-poche/\n**Description** :\n```\nLa Chasse aux chevreuils\n\nTu cherches un grand jeu dynamique et collectif à animer avec ton groupe à l'école, en centre de loisirs ou en colo ? Découvre les règles en vidéo !\n\n#animation #ACM #centredeloisirs #animenpoche #sport\n```"
         }
       }
+    },
+    "166-basket-bac": {
+      "date": "2026-10-04",
+      "titre": "Basket bac",
+      "resultats": {
+        "youtube": {
+          "ok": true,
+          "id": "cphGFror004",
+          "lien": "https://youtu.be/cphGFror004",
+          "note": "(miniature ok)"
+        },
+        "youtube_short": {
+          "ok": true,
+          "id": "J8LaszNh_2w",
+          "lien": "https://youtu.be/J8LaszNh_2w"
+        },
+        "tiktok": {
+          "ok": true,
+          "id": "v_inbox_file~v2.7692917024989186070",
+          "note": "(brouillon envoyé dans l'appli)",
+          "a_faire": "📱 **TikTok** : ouvre l'appli → notification « brouillon » → colle la légende puis Publier :\n```\nBasket bac\n\nTu cherches un grand jeu dynamique et collectif à animer avec ton groupe à l'école, en centre de loisirs ou en colo ? Découvre les règles en vidéo !\n\n#animation #ACM #centredeloisirs #animenpoche #sport\n```"
+        },
+        "instagram": {
+          "ok": true,
+          "id": "18021933893720009",
+          "lien": "https://www.instagram.com/reel/DeFh-uWD36G/"
+        },
+        "facebook": {
+          "ok": true,
+          "id": "1085761134381630",
+          "lien": "https://www.facebook.com/reel/1085761134381630",
+          "note": "(couverture ok)"
+        },
+        "pinterest": {
+          "ok": true,
+          "note": "(manuel : kit envoyé sur Discord)",
+          "a_faire": "📌 **Pinterest** (à poster à la main, 2 min) :\n1. Télécharge la vidéo : https://raw.githubusercontent.com/nicovitch27-dev/anim-en-poche/claude/confident-archimedes-d6w5qr/motion/videos-realisees/166-basket-bac/166%20-%20Basket%20bac%20-%20TIKTOK.mp4\n2. Appli Pinterest → **+** → **Épingle** → choisis la vidéo\n3. **Titre** : `Basket bac`\n4. **Lien** : `https://nicovitch27-dev.github.io/anim-en-poche/`\n5. **Description** : colle le bloc ci-dessous, choisis le tableau, puis **Publier**\n```\nBasket bac\n\nTu cherches un grand jeu dynamique et collectif à animer avec ton groupe à l'école, en centre de loisirs ou en colo ? Découvre les règles en vidéo !\n\n#animation #ACM #centredeloisirs #animenpoche #sport\n```"
+        }
+      }
     }
   }
 }
