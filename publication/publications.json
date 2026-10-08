@@ -194,6 +194,45 @@
           "a_faire": "📌 **Pinterest** (à poster à la main, 2 min) :\n1. Télécharge la vidéo : https://raw.githubusercontent.com/nicovitch27-dev/anim-en-poche/claude/confident-archimedes-d6w5qr/motion/videos-realisees/chien-et-chat/Le%20Chien%20et%20le%20Chat%20-%20TIKTOK.mp4\n2. Appli Pinterest → **+** → **Épingle** → choisis la vidéo\n3. **Titre** : `Le Chien et le Chat`\n4. **Lien** : `https://nicovitch27-dev.github.io/anim-en-poche/`\n5. **Description** : colle le bloc ci-dessous, choisis le tableau, puis **Publier**\n```\nLe Chien et le Chat\n\nTu cherches un grand jeu dynamique et collectif à animer avec ton groupe à l'école, en centre de loisirs ou en colo ? Découvre les règles en vidéo !\n\n#animation #ACM #centredeloisirs #animenpoche #sport\n```"
         }
       }
+    },
+    "protege-ton-tresor": {
+      "date": "2026-10-08",
+      "titre": "Protège ton trésor",
+      "resultats": {
+        "youtube": {
+          "ok": true,
+          "id": "h-BUTCpeuVc",
+          "lien": "https://youtu.be/h-BUTCpeuVc",
+          "note": "(miniature ok)"
+        },
+        "youtube_short": {
+          "ok": true,
+          "id": "wWQJwqcU_Aw",
+          "lien": "https://youtu.be/wWQJwqcU_Aw"
+        },
+        "tiktok": {
+          "ok": true,
+          "id": "v_inbox_file~v2.7694327722721642518",
+          "note": "(statut PROCESSING_UPLOAD)",
+          "a_faire": "📱 **TikTok** : ouvre l'appli → notification « brouillon » → colle la légende puis Publier :\n```\nProtège ton trésor\n\nTu cherches un grand jeu dynamique et collectif à animer avec ton groupe à l'école, en centre de loisirs ou en colo ? Découvre les règles en vidéo !\n\n#animation #ACM #centredeloisirs #animenpoche #sport\n```"
+        },
+        "instagram": {
+          "ok": true,
+          "id": "18360922441247482",
+          "lien": "https://www.instagram.com/reel/DePUzBgCU8X/"
+        },
+        "facebook": {
+          "ok": true,
+          "id": "1118816434013904",
+          "lien": "https://www.facebook.com/reel/1118816434013904",
+          "note": "(couverture ok)"
+        },
+        "pinterest": {
+          "ok": true,
+          "note": "(manuel : kit envoyé sur Discord)",
+          "a_faire": "📌 **Pinterest** (à poster à la main, 2 min) :\n1. Télécharge la vidéo : https://raw.githubusercontent.com/nicovitch27-dev/anim-en-poche/claude/confident-archimedes-d6w5qr/motion/videos-realisees/protege-ton-tresor/Prot%C3%A8ge%20ton%20tr%C3%A9sor%20-%20TIKTOK.mp4\n2. Appli Pinterest → **+** → **Épingle** → choisis la vidéo\n3. **Titre** : `Protège ton trésor`\n4. **Lien** : `https://nicovitch27-dev.github.io/anim-en-poche/`\n5. **Description** : colle le bloc ci-dessous, choisis le tableau, puis **Publier**\n```\nProtège ton trésor\n\nTu cherches un grand jeu dynamique et collectif à animer avec ton groupe à l'école, en centre de loisirs ou en colo ? Découvre les règles en vidéo !\n\n#animation #ACM #centredeloisirs #animenpoche #sport\n```"
+        }
+      }
     }
   }
 }
