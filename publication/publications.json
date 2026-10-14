@@ -428,6 +428,45 @@
           "a_faire": "📌 **Pinterest** (à poster à la main, 2 min) :\n1. Télécharge la vidéo : https://raw.githubusercontent.com/nicovitch27-dev/anim-en-poche/claude/confident-archimedes-d6w5qr/motion/videos-realisees/1611-demenagement-animaux/1611%20-%20Le%20D%C3%A9m%C3%A9nagement%20des%20animaux%20-%20TIKTOK.mp4\n2. Appli Pinterest → **+** → **Épingle** → choisis la vidéo\n3. **Titre** : `Le Déménagement des animaux`\n4. **Lien** : `https://nicovitch27-dev.github.io/anim-en-poche/`\n5. **Description** : colle le bloc ci-dessous, choisis le tableau, puis **Publier**\n```\nLe Déménagement des animaux\n\nTu cherches un grand jeu dynamique et collectif à animer avec ton groupe à l'école, en centre de loisirs ou en colo ? Découvre les règles en vidéo !\n\n#animation #ACM #centredeloisirs #animenpoche #sport\n```"
         }
       }
+    },
+    "1612-course-couleurs": {
+      "date": "2026-10-14",
+      "titre": "La Course aux couleurs et aux matières",
+      "resultats": {
+        "youtube": {
+          "ok": true,
+          "id": "jiMrOrbYAOc",
+          "lien": "https://youtu.be/jiMrOrbYAOc",
+          "note": "(miniature ok)"
+        },
+        "youtube_short": {
+          "ok": true,
+          "id": "6L8MKojbNEo",
+          "lien": "https://youtu.be/6L8MKojbNEo"
+        },
+        "tiktok": {
+          "ok": true,
+          "id": "v_inbox_file~v2.7696554311824279574",
+          "note": "(statut PROCESSING_UPLOAD)",
+          "a_faire": "📱 **TikTok** : ouvre l'appli → notification « brouillon » → colle la légende puis Publier :\n```\nLa Course aux couleurs et aux matières\n\nTu cherches un grand jeu dynamique et collectif à animer avec ton groupe à l'école, en centre de loisirs ou en colo ? Découvre les règles en vidéo !\n\n#animation #ACM #centredeloisirs #animenpoche #sport\n```"
+        },
+        "instagram": {
+          "ok": true,
+          "id": "18234463432321245",
+          "lien": "https://www.instagram.com/reel/Deexnb8Dl0K/"
+        },
+        "facebook": {
+          "ok": true,
+          "id": "2089573868331858",
+          "lien": "https://www.facebook.com/reel/2089573868331858",
+          "note": "(couverture ok)"
+        },
+        "pinterest": {
+          "ok": true,
+          "note": "(manuel : kit envoyé sur Discord)",
+          "a_faire": "📌 **Pinterest** (à poster à la main, 2 min) :\n1. Télécharge la vidéo : https://raw.githubusercontent.com/nicovitch27-dev/anim-en-poche/claude/confident-archimedes-d6w5qr/motion/videos-realisees/1612-course-couleurs/1612%20-%20La%20Course%20aux%20couleurs%20et%20aux%20mati%C3%A8res%20-%20TIKTOK.mp4\n2. Appli Pinterest → **+** → **Épingle** → choisis la vidéo\n3. **Titre** : `La Course aux couleurs et aux matières`\n4. **Lien** : `https://nicovitch27-dev.github.io/anim-en-poche/`\n5. **Description** : colle le bloc ci-dessous, choisis le tableau, puis **Publier**\n```\nLa Course aux couleurs et aux matières\n\nTu cherches un grand jeu dynamique et collectif à animer avec ton groupe à l'école, en centre de loisirs ou en colo ? Découvre les règles en vidéo !\n\n#animation #ACM #centredeloisirs #animenpoche #sport\n```"
+        }
+      }
     }
   }
 }
