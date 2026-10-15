@@ -467,6 +467,45 @@
           "a_faire": "📌 **Pinterest** (à poster à la main, 2 min) :\n1. Télécharge la vidéo : https://raw.githubusercontent.com/nicovitch27-dev/anim-en-poche/claude/confident-archimedes-d6w5qr/motion/videos-realisees/1612-course-couleurs/1612%20-%20La%20Course%20aux%20couleurs%20et%20aux%20mati%C3%A8res%20-%20TIKTOK.mp4\n2. Appli Pinterest → **+** → **Épingle** → choisis la vidéo\n3. **Titre** : `La Course aux couleurs et aux matières`\n4. **Lien** : `https://nicovitch27-dev.github.io/anim-en-poche/`\n5. **Description** : colle le bloc ci-dessous, choisis le tableau, puis **Publier**\n```\nLa Course aux couleurs et aux matières\n\nTu cherches un grand jeu dynamique et collectif à animer avec ton groupe à l'école, en centre de loisirs ou en colo ? Découvre les règles en vidéo !\n\n#animation #ACM #centredeloisirs #animenpoche #sport\n```"
         }
       }
+    },
+    "1613-morpion-geant": {
+      "date": "2026-10-15",
+      "titre": "Le Morpion géant (relais)",
+      "resultats": {
+        "youtube": {
+          "ok": true,
+          "id": "NXzF0CY-LjI",
+          "lien": "https://youtu.be/NXzF0CY-LjI",
+          "note": "(miniature ok)"
+        },
+        "youtube_short": {
+          "ok": true,
+          "id": "KqGS023EwDU",
+          "lien": "https://youtu.be/KqGS023EwDU"
+        },
+        "tiktok": {
+          "ok": true,
+          "id": "v_inbox_file~v2.7696925420087756822",
+          "note": "(statut PROCESSING_UPLOAD)",
+          "a_faire": "📱 **TikTok** : ouvre l'appli → notification « brouillon » → colle la légende puis Publier :\n```\nLe Morpion géant (relais)\n\nTu cherches un grand jeu dynamique et collectif à animer avec ton groupe à l'école, en centre de loisirs ou en colo ? Découvre les règles en vidéo !\n\n#animation #ACM #centredeloisirs #animenpoche #sport\n```"
+        },
+        "instagram": {
+          "ok": true,
+          "id": "17999835453041555",
+          "lien": "https://www.instagram.com/reel/DehWZUyCQU1/"
+        },
+        "facebook": {
+          "ok": true,
+          "id": "1872005773968600",
+          "lien": "https://www.facebook.com/reel/1872005773968600",
+          "note": "(couverture ok)"
+        },
+        "pinterest": {
+          "ok": true,
+          "note": "(manuel : kit envoyé sur Discord)",
+          "a_faire": "📌 **Pinterest** (à poster à la main, 2 min) :\n1. Télécharge la vidéo : https://raw.githubusercontent.com/nicovitch27-dev/anim-en-poche/claude/confident-archimedes-d6w5qr/motion/videos-realisees/1613-morpion-geant/1613%20-%20Le%20Morpion%20g%C3%A9ant%20%28relais%29%20-%20TIKTOK.mp4\n2. Appli Pinterest → **+** → **Épingle** → choisis la vidéo\n3. **Titre** : `Le Morpion géant (relais)`\n4. **Lien** : `https://nicovitch27-dev.github.io/anim-en-poche/`\n5. **Description** : colle le bloc ci-dessous, choisis le tableau, puis **Publier**\n```\nLe Morpion géant (relais)\n\nTu cherches un grand jeu dynamique et collectif à animer avec ton groupe à l'école, en centre de loisirs ou en colo ? Découvre les règles en vidéo !\n\n#animation #ACM #centredeloisirs #animenpoche #sport\n```"
+        }
+      }
     }
   }
 }
