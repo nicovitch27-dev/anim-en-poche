@@ -584,6 +584,45 @@
           "a_faire": "📌 **Pinterest** (à poster à la main, 2 min) :\n1. Télécharge la vidéo : https://raw.githubusercontent.com/nicovitch27-dev/anim-en-poche/claude/confident-archimedes-d6w5qr/motion/videos-realisees/1615-noeud-gordien/1615%20-%20Le%20N%C5%93ud%20gordien%20-%20TIKTOK.mp4\n2. Appli Pinterest → **+** → **Épingle** → choisis la vidéo\n3. **Titre** : `Le Nœud gordien`\n4. **Lien** : `https://nicovitch27-dev.github.io/anim-en-poche/`\n5. **Description** : colle le bloc ci-dessous, choisis le tableau, puis **Publier**\n```\nLe Nœud gordien\n\nTu cherches un grand jeu dynamique et collectif à animer avec ton groupe à l'école, en centre de loisirs ou en colo ? Découvre les règles en vidéo !\n\n#animation #ACM #centredeloisirs #animenpoche #sport\n```"
         }
       }
+    },
+    "1616-proies-predateurs": {
+      "date": "2026-10-18",
+      "titre": "Proies et prédateurs",
+      "resultats": {
+        "youtube": {
+          "ok": true,
+          "id": "jRtZLLu-XP4",
+          "lien": "https://youtu.be/jRtZLLu-XP4",
+          "note": "(miniature ok)"
+        },
+        "youtube_short": {
+          "ok": true,
+          "id": "vtcihipocnI",
+          "lien": "https://youtu.be/vtcihipocnI"
+        },
+        "tiktok": {
+          "ok": true,
+          "id": "v_inbox_file~v2.7698038538306652162",
+          "note": "(statut PROCESSING_UPLOAD)",
+          "a_faire": "📱 **TikTok** : ouvre l'appli → notification « brouillon » → colle la légende puis Publier :\n```\nProies et prédateurs\n\nTu cherches un grand jeu dynamique et collectif à animer avec ton groupe à l'école, en centre de loisirs ou en colo ? Découvre les règles en vidéo !\n\n#animation #ACM #centredeloisirs #animenpoche #sport\n```"
+        },
+        "instagram": {
+          "ok": true,
+          "id": "18130451572839149",
+          "lien": "https://www.instagram.com/reel/DepEu-9iGmN/"
+        },
+        "facebook": {
+          "ok": true,
+          "id": "28689920050689450",
+          "lien": "https://www.facebook.com/reel/28689920050689450",
+          "note": "(couverture ok)"
+        },
+        "pinterest": {
+          "ok": true,
+          "note": "(manuel : kit envoyé sur Discord)",
+          "a_faire": "📌 **Pinterest** (à poster à la main, 2 min) :\n1. Télécharge la vidéo : https://raw.githubusercontent.com/nicovitch27-dev/anim-en-poche/claude/confident-archimedes-d6w5qr/motion/videos-realisees/1616-proies-predateurs/1616%20-%20Proies%20et%20pr%C3%A9dateurs%20-%20TIKTOK.mp4\n2. Appli Pinterest → **+** → **Épingle** → choisis la vidéo\n3. **Titre** : `Proies et prédateurs`\n4. **Lien** : `https://nicovitch27-dev.github.io/anim-en-poche/`\n5. **Description** : colle le bloc ci-dessous, choisis le tableau, puis **Publier**\n```\nProies et prédateurs\n\nTu cherches un grand jeu dynamique et collectif à animer avec ton groupe à l'école, en centre de loisirs ou en colo ? Découvre les règles en vidéo !\n\n#animation #ACM #centredeloisirs #animenpoche #sport\n```"
+        }
+      }
     }
   }
 }
