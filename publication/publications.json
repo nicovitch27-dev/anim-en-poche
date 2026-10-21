@@ -701,6 +701,45 @@
           "a_faire": "📌 **Pinterest** (à poster à la main, 2 min) :\n1. Télécharge la vidéo : https://raw.githubusercontent.com/nicovitch27-dev/anim-en-poche/claude/confident-archimedes-d6w5qr/motion/videos-realisees/1620-vider-caisse/1620%20-%20Vider%20la%20caisse%2C%20remplir%20la%20maison%20-%20TIKTOK.mp4\n2. Appli Pinterest → **+** → **Épingle** → choisis la vidéo\n3. **Titre** : `Vider la caisse, remplir la maison`\n4. **Lien** : `https://nicovitch27-dev.github.io/anim-en-poche/`\n5. **Description** : colle le bloc ci-dessous, choisis le tableau, puis **Publier**\n```\nVider la caisse, remplir la maison\n\nTu cherches un grand jeu dynamique et collectif à animer avec ton groupe à l'école, en centre de loisirs ou en colo ? Découvre les règles en vidéo !\n\n#animation #ACM #centredeloisirs #animenpoche #sport\n```"
         }
       }
+    },
+    "1623-rapporter-caisse": {
+      "date": "2026-10-21",
+      "titre": "Rapporter dans la caisse",
+      "resultats": {
+        "youtube": {
+          "ok": true,
+          "id": "tPAVc0TGYNQ",
+          "lien": "https://youtu.be/tPAVc0TGYNQ",
+          "note": "(miniature ok)"
+        },
+        "youtube_short": {
+          "ok": true,
+          "id": "wZ7Pr4-FL5U",
+          "lien": "https://youtu.be/wZ7Pr4-FL5U"
+        },
+        "tiktok": {
+          "ok": true,
+          "id": "v_inbox_file~v2.7699151869444196374",
+          "note": "(statut PROCESSING_UPLOAD)",
+          "a_faire": "📱 **TikTok** : ouvre l'appli → notification « brouillon » → colle la légende puis Publier :\n```\nRapporter dans la caisse\n\nTu cherches un grand jeu dynamique et collectif à animer avec ton groupe à l'école, en centre de loisirs ou en colo ? Découvre les règles en vidéo !\n\n#animation #ACM #centredeloisirs #animenpoche #sport\n```"
+        },
+        "instagram": {
+          "ok": true,
+          "id": "18098020775399858",
+          "lien": "https://www.instagram.com/reel/DewzJCJCl7n/"
+        },
+        "facebook": {
+          "ok": true,
+          "id": "1142582735001622",
+          "lien": "https://www.facebook.com/reel/1142582735001622",
+          "note": "(couverture ok)"
+        },
+        "pinterest": {
+          "ok": true,
+          "note": "(manuel : kit envoyé sur Discord)",
+          "a_faire": "📌 **Pinterest** (à poster à la main, 2 min) :\n1. Télécharge la vidéo : https://raw.githubusercontent.com/nicovitch27-dev/anim-en-poche/claude/confident-archimedes-d6w5qr/motion/videos-realisees/1623-rapporter-caisse/1623%20-%20Rapporter%20dans%20la%20caisse%20-%20TIKTOK.mp4\n2. Appli Pinterest → **+** → **Épingle** → choisis la vidéo\n3. **Titre** : `Rapporter dans la caisse`\n4. **Lien** : `https://nicovitch27-dev.github.io/anim-en-poche/`\n5. **Description** : colle le bloc ci-dessous, choisis le tableau, puis **Publier**\n```\nRapporter dans la caisse\n\nTu cherches un grand jeu dynamique et collectif à animer avec ton groupe à l'école, en centre de loisirs ou en colo ? Découvre les règles en vidéo !\n\n#animation #ACM #centredeloisirs #animenpoche #sport\n```"
+        }
+      }
     }
   }
 }
