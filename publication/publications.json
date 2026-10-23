@@ -779,6 +779,45 @@
           "a_faire": "📌 **Pinterest** (à poster à la main, 2 min) :\n1. Télécharge la vidéo : https://raw.githubusercontent.com/nicovitch27-dev/anim-en-poche/claude/confident-archimedes-d6w5qr/motion/videos-realisees/1626-moutons-bergerie/1626%20-%20Les%20Moutons%20dans%20la%20bergerie%20-%20TIKTOK.mp4\n2. Appli Pinterest → **+** → **Épingle** → choisis la vidéo\n3. **Titre** : `Les Moutons dans la bergerie`\n4. **Lien** : `https://nicovitch27-dev.github.io/anim-en-poche/`\n5. **Description** : colle le bloc ci-dessous, choisis le tableau, puis **Publier**\n```\nLes Moutons dans la bergerie\n\nTu cherches un grand jeu dynamique et collectif à animer avec ton groupe à l'école, en centre de loisirs ou en colo ? Découvre les règles en vidéo !\n\n#animation #ACM #centredeloisirs #animenpoche #sport\n```"
         }
       }
+    },
+    "1627-loup-paturages": {
+      "date": "2026-10-23",
+      "titre": "Le Loup dans les pâturages",
+      "resultats": {
+        "youtube": {
+          "ok": true,
+          "id": "m9Hkh5zpJp8",
+          "lien": "https://youtu.be/m9Hkh5zpJp8",
+          "note": "(miniature ok)"
+        },
+        "youtube_short": {
+          "ok": true,
+          "id": "74EtGO-397k",
+          "lien": "https://youtu.be/74EtGO-397k"
+        },
+        "tiktok": {
+          "ok": true,
+          "id": "v_inbox_file~v2.7699901557969602582",
+          "note": "(brouillon envoyé dans l'appli)",
+          "a_faire": "📱 **TikTok** : ouvre l'appli → notification « brouillon » → colle la légende puis Publier :\n```\nLe Loup dans les pâturages\n\nTu cherches un grand jeu dynamique et collectif à animer avec ton groupe à l'école, en centre de loisirs ou en colo ? Découvre les règles en vidéo !\n\n#animation #ACM #centredeloisirs #animenpoche #sport\n```"
+        },
+        "instagram": {
+          "ok": true,
+          "id": "17971127205190627",
+          "lien": "https://www.instagram.com/reel/De1_iuDDJv7/"
+        },
+        "facebook": {
+          "ok": true,
+          "id": "2089144218371515",
+          "lien": "https://www.facebook.com/reel/2089144218371515",
+          "note": "(couverture ok)"
+        },
+        "pinterest": {
+          "ok": true,
+          "note": "(manuel : kit envoyé sur Discord)",
+          "a_faire": "📌 **Pinterest** (à poster à la main, 2 min) :\n1. Télécharge la vidéo : https://raw.githubusercontent.com/nicovitch27-dev/anim-en-poche/claude/confident-archimedes-d6w5qr/motion/videos-realisees/1627-loup-paturages/1627%20-%20Le%20Loup%20dans%20les%20p%C3%A2turages%20-%20TIKTOK.mp4\n2. Appli Pinterest → **+** → **Épingle** → choisis la vidéo\n3. **Titre** : `Le Loup dans les pâturages`\n4. **Lien** : `https://nicovitch27-dev.github.io/anim-en-poche/`\n5. **Description** : colle le bloc ci-dessous, choisis le tableau, puis **Publier**\n```\nLe Loup dans les pâturages\n\nTu cherches un grand jeu dynamique et collectif à animer avec ton groupe à l'école, en centre de loisirs ou en colo ? Découvre les règles en vidéo !\n\n#animation #ACM #centredeloisirs #animenpoche #sport\n```"
+        }
+      }
     }
   }
 }
