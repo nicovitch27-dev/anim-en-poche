@@ -1052,6 +1052,45 @@
           "a_faire": "📌 **Pinterest** (à poster à la main, 2 min) :\n1. Télécharge la vidéo : https://raw.githubusercontent.com/nicovitch27-dev/anim-en-poche/claude/confident-archimedes-d6w5qr/motion/videos-realisees/1633-refuges/1633%20-%20Les%20Refuges%20-%20TIKTOK.mp4\n2. Appli Pinterest → **+** → **Épingle** → choisis la vidéo\n3. **Titre** : `Les Refuges`\n4. **Lien** : `https://nicovitch27-dev.github.io/anim-en-poche/`\n5. **Description** : colle le bloc ci-dessous, choisis le tableau, puis **Publier**\n```\nLes Refuges\n\nTu cherches un grand jeu dynamique et collectif à animer avec ton groupe à l'école, en centre de loisirs ou en colo ? Découvre les règles en vidéo !\n\n#animation #ACM #centredeloisirs #animenpoche #sport\n```"
         }
       }
+    },
+    "1634-relais-demenageurs": {
+      "date": "2026-10-30",
+      "titre": "Le Relais des Déménageurs",
+      "resultats": {
+        "youtube": {
+          "ok": true,
+          "id": "0eNdN5Bqw1A",
+          "lien": "https://youtu.be/0eNdN5Bqw1A",
+          "note": "(miniature ok)"
+        },
+        "youtube_short": {
+          "ok": true,
+          "id": "k5Ddtry_4fQ",
+          "lien": "https://youtu.be/k5Ddtry_4fQ"
+        },
+        "tiktok": {
+          "ok": true,
+          "id": "v_inbox_file~v2.7702507133304473602",
+          "note": "(statut PROCESSING_UPLOAD)",
+          "a_faire": "📱 **TikTok** : ouvre l'appli → notification « brouillon » → colle la légende puis Publier :\n```\nLe Relais des Déménageurs\n\nTu cherches un grand jeu dynamique et collectif à animer avec ton groupe à l'école, en centre de loisirs ou en colo ? Découvre les règles en vidéo !\n\n#animation #ACM #centredeloisirs #animenpoche #sport\n```"
+        },
+        "instagram": {
+          "ok": true,
+          "id": "18153003277550428",
+          "lien": "https://www.instagram.com/reel/DfIFLb3FRHT/"
+        },
+        "facebook": {
+          "ok": true,
+          "id": "1138980835489437",
+          "lien": "https://www.facebook.com/reel/1138980835489437",
+          "note": "(couverture ok)"
+        },
+        "pinterest": {
+          "ok": true,
+          "note": "(manuel : kit envoyé sur Discord)",
+          "a_faire": "📌 **Pinterest** (à poster à la main, 2 min) :\n1. Télécharge la vidéo : https://raw.githubusercontent.com/nicovitch27-dev/anim-en-poche/claude/confident-archimedes-d6w5qr/motion/videos-realisees/1634-relais-demenageurs/1634%20-%20Le%20Relais%20des%20D%C3%A9m%C3%A9nageurs%20-%20TIKTOK.mp4\n2. Appli Pinterest → **+** → **Épingle** → choisis la vidéo\n3. **Titre** : `Le Relais des Déménageurs`\n4. **Lien** : `https://nicovitch27-dev.github.io/anim-en-poche/`\n5. **Description** : colle le bloc ci-dessous, choisis le tableau, puis **Publier**\n```\nLe Relais des Déménageurs\n\nTu cherches un grand jeu dynamique et collectif à animer avec ton groupe à l'école, en centre de loisirs ou en colo ? Découvre les règles en vidéo !\n\n#animation #ACM #centredeloisirs #animenpoche #sport\n```"
+        }
+      }
     }
   }
 }
