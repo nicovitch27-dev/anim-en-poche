@@ -72,8 +72,19 @@ def _toutes(url, params, tok):
         params["pageToken"] = j["nextPageToken"]
 
 
+_PLAYLISTS = {}
+
+
 def playlist(titre, description, tok):
-    """Identifiant de la playlist de ce titre sur la chaîne ; elle est créée (publique) si elle n'existe pas."""
+    """Identifiant de la playlist de ce titre sur la chaîne ; elle est créée (publique) si elle n'existe pas.
+    Une playlist toute neuve met un moment à apparaître dans la liste : on garde son identifiant en mémoire."""
+    if titre in _PLAYLISTS:
+        return _PLAYLISTS[titre]
+    _PLAYLISTS[titre] = _cherche_ou_cree(titre, description, tok)
+    return _PLAYLISTS[titre]
+
+
+def _cherche_ou_cree(titre, description, tok):
     for p in _toutes(f"{API}/playlists", {"part": "snippet", "mine": "true"}, tok):
         if p["snippet"]["title"] == titre:
             return p["id"]
@@ -85,9 +96,14 @@ def playlist(titre, description, tok):
 
 
 def ajouter_a_playlist(vid, pid, tok):
-    for it in _toutes(f"{API}/playlistItems", {"part": "contentDetails", "playlistId": pid}, tok):
-        if it["contentDetails"]["videoId"] == vid:
-            return False
+    try:
+        for it in _toutes(f"{API}/playlistItems", {"part": "contentDetails", "playlistId": pid}, tok):
+            if it["contentDetails"]["videoId"] == vid:
+                return False
+    except requests.HTTPError as e:
+        # playlist toute neuve : YouTube répond 404 tant qu'elle n'est pas visible, elle est encore vide
+        if e.response is None or e.response.status_code != 404:
+            raise
     r = requests.post(f"{API}/playlistItems?part=snippet", headers={"Authorization": f"Bearer {tok}"}, json={
         "snippet": {"playlistId": pid, "resourceId": {"kind": "youtube#video", "videoId": vid}}}, timeout=60)
     r.raise_for_status()
