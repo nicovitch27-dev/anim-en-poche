@@ -1,0 +1,34 @@
+name: Mise à jour des vidéos YouTube
+
+# Lancement à la main : titres, descriptions (lien vers la fiche) et playlists des vidéos déjà publiées
+on:
+  workflow_dispatch:
+    inputs:
+      essai:
+        description: "Essai à blanc (ne modifie rien)"
+        type: boolean
+        default: true
+
+concurrency:
+  group: publication
+  cancel-in-progress: false
+
+jobs:
+  maj:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -q requests pillow
+      - name: Mettre à jour
+        env:
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+        run: python publication/youtube_maj.py ${{ inputs.essai && '--essai' || '' }}

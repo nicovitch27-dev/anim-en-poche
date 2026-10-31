@@ -53,3 +53,60 @@ def miniature(vid, image, tok=None):
             f"https://www.googleapis.com/upload/youtube/v3/thumbnails/set?videoId={vid}&uploadType=media",
             headers={"Authorization": f"Bearer {tok or jeton()}", "Content-Type": "image/jpeg"}, data=f, timeout=120)
     return "(miniature ok)" if t.ok else f"(miniature refusée : {t.text[:150]})"
+
+
+# ---------- playlists par famille de jeux et mise à jour des vidéos déjà en ligne ----------
+
+API = "https://www.googleapis.com/youtube/v3"
+
+
+def _toutes(url, params, tok):
+    params = dict(params, maxResults=50)
+    while True:
+        r = requests.get(url, params=params, headers={"Authorization": f"Bearer {tok}"}, timeout=60)
+        r.raise_for_status()
+        j = r.json()
+        yield from j.get("items", [])
+        if not j.get("nextPageToken"):
+            return
+        params["pageToken"] = j["nextPageToken"]
+
+
+def playlist(titre, description, tok):
+    """Identifiant de la playlist de ce titre sur la chaîne ; elle est créée (publique) si elle n'existe pas."""
+    for p in _toutes(f"{API}/playlists", {"part": "snippet", "mine": "true"}, tok):
+        if p["snippet"]["title"] == titre:
+            return p["id"]
+    r = requests.post(f"{API}/playlists?part=snippet,status", headers={"Authorization": f"Bearer {tok}"}, json={
+        "snippet": {"title": titre, "description": description, "defaultLanguage": "fr"},
+        "status": {"privacyStatus": "public"}}, timeout=60)
+    r.raise_for_status()
+    return r.json()["id"]
+
+
+def ajouter_a_playlist(vid, pid, tok):
+    for it in _toutes(f"{API}/playlistItems", {"part": "contentDetails", "playlistId": pid}, tok):
+        if it["contentDetails"]["videoId"] == vid:
+            return False
+    r = requests.post(f"{API}/playlistItems?part=snippet", headers={"Authorization": f"Bearer {tok}"}, json={
+        "snippet": {"playlistId": pid, "resourceId": {"kind": "youtube#video", "videoId": vid}}}, timeout=60)
+    r.raise_for_status()
+    return True
+
+
+def modifier(vid, titre, description, tok):
+    """Remplace le titre et la description d'une vidéo en ligne (catégorie et langue gardées)."""
+    r = requests.get(f"{API}/videos", params={"part": "snippet", "id": vid},
+                     headers={"Authorization": f"Bearer {tok}"}, timeout=60)
+    r.raise_for_status()
+    items = r.json().get("items", [])
+    if not items:
+        return False
+    sn = items[0]["snippet"]
+    corps = {"id": vid, "snippet": {"title": titre, "description": description, "categoryId": sn["categoryId"],
+                                    "defaultLanguage": sn.get("defaultLanguage", "fr"),
+                                    "defaultAudioLanguage": sn.get("defaultAudioLanguage", "fr"),
+                                    **({"tags": sn["tags"]} if sn.get("tags") else {})}}
+    r = requests.put(f"{API}/videos?part=snippet", headers={"Authorization": f"Bearer {tok}"}, json=corps, timeout=60)
+    r.raise_for_status()
+    return True

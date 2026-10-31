@@ -130,7 +130,8 @@ def duree(video):
 # ---------- lien vers la fiche du jeu sur animenpoche.fr ----------
 
 def _slug(s):
-    s = unicodedata.normalize("NFD", s.lower()).encode("ascii", "ignore").decode()
+    # accents retirés ; les autres lettres hors ASCII (œ, æ) deviennent des tirets, comme sur le site
+    s = "".join(c for c in unicodedata.normalize("NFD", s.lower()) if not unicodedata.combining(c))
     return re.sub(r"[^a-z0-9]+", "-", re.sub(r"['’]", "-", s)).strip("-")[:80]
 
 
@@ -151,7 +152,9 @@ def lien_fiche(titre):
     if s in fiches:
         return fiches[s]
     sans = ARTICLE_RE.sub("", s)
-    return next((u for k, u in fiches.items() if ARTICLE_RE.sub("", k) == sans), CONFIG["lien_site"])
+    pareil = next((u for k, u in fiches.items() if ARTICLE_RE.sub("", k) == sans), None)
+    # sinon une variante du même jeu (« Les Refuges » → les-refuges-transport)
+    return pareil or next((u for k, u in fiches.items() if k.startswith(s + "-")), CONFIG["lien_site"])
 
 
 def metadonnees(titre):
@@ -164,6 +167,26 @@ def metadonnees(titre):
         f"{CONFIG['pied']}\n\n{CONFIG['hashtags']}"
     )
     return {"titre": long if len(long) <= 100 else titre[:100], "description": description, "lien": lien}
+
+
+def playlist_de(meta_):
+    """Titre et description de la playlist YouTube de la famille du jeu (lue dans l'adresse de sa fiche)."""
+    morceaux = meta_["lien"].split("/jeux/")
+    famille = CONFIG["familles"].get(morceaux[1].split("/")[0]) if len(morceaux) == 2 else None
+    if not famille:
+        return None
+    return (f"{famille} pour enfants : les règles en vidéo",
+            f"{famille} pour animer un groupe en accueil de loisirs, en périscolaire, à l'école ou en colo. "
+            f"Toutes les fiches gratuites : {CONFIG['site']}/jeux")
+
+
+def ranger_dans_playlist(vid, meta_):
+    pl = playlist_de(meta_)
+    if not pl:
+        return ""
+    tok = youtube.jeton()
+    youtube.ajouter_a_playlist(vid, youtube.playlist(*pl, tok), tok)
+    return f"(playlist « {pl[0]} »)"
 
 
 # ---------- programme principal ----------
@@ -242,6 +265,13 @@ def main():
                 resultats[nom] = {"ok": False, "erreur": str(e)[:400]}
 
         lancer("youtube", pl["youtube"], youtube.publier, horiz, cov_h, meta_, CONFIG)
+        if resultats.get("youtube", {}).get("ok"):
+            try:
+                note = ranger_dans_playlist(resultats["youtube"]["id"], meta_)
+                resultats["youtube"]["note"] = f"{resultats['youtube'].get('note', '')} {note}".strip()
+            except Exception as e:
+                traceback.print_exc()
+                resultats["youtube"]["note"] = f"{resultats['youtube'].get('note', '')} (playlist refusée : {str(e)[:120]})".strip()
         lancer("youtube_short", pl["youtube_short"], youtube.publier, vert, None, meta_, CONFIG)
         lancer("tiktok", pl["tiktok"], tiktok.publier, vert, meta_)
         lancer("instagram", pl["instagram"], meta.instagram, vert, meta_, CONFIG,
@@ -253,7 +283,7 @@ def main():
     reussites = [k for k, v in resultats.items() if v["ok"]]
     deja = choix["dossier"] in reg["publiees"]
     if reussites:
-        entree = reg["publiees"].setdefault(choix["dossier"], {"date": aujourdhui, "titre": meta_["titre"], "resultats": {}})
+        entree = reg["publiees"].setdefault(choix["dossier"], {"date": aujourdhui, "titre": choix["titre"], "resultats": {}})
         entree["resultats"].update(resultats)  # un rattrapage garde la date d'origine
         ecrire_registre(reg)
 
