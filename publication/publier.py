@@ -1,4 +1,5 @@
-"""Publication quotidienne Anim en poche : 1 vidéo par jour sur toutes les plateformes.
+"""Publication quotidienne Anim en poche : 1 vidéo par créneau (12h et 18h à Paris, cf. config.json)
+sur toutes les plateformes.
 
 Lancé par .github/workflows/publier.yml (cron) ou à la main :
     python publication/publier.py --essai            # n'envoie rien, montre ce qui serait publié
@@ -208,11 +209,18 @@ def main():
     aujourdhui = maintenant.date().isoformat()
     reg = lire_registre()
 
-    if not args.ignorer_heure and maintenant.hour < CONFIG["heure_paris_debut"]:
+    # Créneau en cours : la dernière heure de publication passée. Un créneau raté (GitHub en retard)
+    # est rattrapé tant que le suivant n'a pas commencé, puis abandonné.
+    heures = sorted(CONFIG["heures_paris"])
+    passees = [h for h in heures if h <= maintenant.hour]
+    if not passees and not args.ignorer_heure:
         print(f"Il est {maintenant:%H:%M} à Paris : pas l'heure de publier.")
         return 0
-    if not args.forcer and any(p.get("date") == aujourdhui for p in reg["publiees"].values()):
-        print("Une vidéo a déjà été publiée aujourd'hui.")
+    creneau = passees[-1] if passees else heures[0]
+    # les publications d'avant les créneaux étaient toutes à 18h
+    faits = {p.get("creneau", 18) for p in reg["publiees"].values() if p.get("date") == aujourdhui}
+    if not args.forcer and creneau in faits:
+        print(f"La vidéo de {creneau}h a déjà été publiée aujourd'hui.")
         return 0
 
     videos = ordre(catalogue())
@@ -229,7 +237,7 @@ def main():
         return 0
 
     meta_ = metadonnees(choix["titre"])
-    print(f"Vidéo du jour : {choix['dossier']} — {meta_['titre']}  ({restantes} restantes)")
+    print(f"Vidéo de {creneau}h : {choix['dossier']} — {meta_['titre']}  ({restantes} restantes)")
     print(meta_["description"])
     if args.essai:
         print("\nMode essai : rien n'est publié.")
@@ -283,7 +291,7 @@ def main():
     reussites = [k for k, v in resultats.items() if v["ok"]]
     deja = choix["dossier"] in reg["publiees"]
     if reussites:
-        entree = reg["publiees"].setdefault(choix["dossier"], {"date": aujourdhui, "titre": choix["titre"], "resultats": {}})
+        entree = reg["publiees"].setdefault(choix["dossier"], {"date": aujourdhui, "creneau": creneau, "titre": choix["titre"], "resultats": {}})
         entree["resultats"].update(resultats)  # un rattrapage garde la date d'origine
         ecrire_registre(reg)
 

@@ -2,7 +2,7 @@
   "depot": "nicovitch27-dev/anim-en-poche",
   "branche_videos": "claude/confident-archimedes-d6w5qr",
   "dossier_videos": "motion/videos-realisees",
-  "heure_paris_debut": 18,
+  "heures_paris": [12, 18],
 
   "prioritaires": [
     "164-chasse-aux-chevreuils",

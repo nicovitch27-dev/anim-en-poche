@@ -3,9 +3,9 @@ name: Publication quotidienne
 on:
   schedule:
     # GitHub retarde (parfois de 3 h) ou saute les déclenchements programmés, surtout
-    # à l'heure pile. On tente donc toutes les 30 min de 16h à 22h UTC, à des minutes
-    # creuses : le script attend 18h à Paris et ne publie qu'une vidéo par jour.
-    - cron: "7,37 16-21 * * *"
+    # à l'heure pile. On tente donc toutes les 30 min de 10h à 22h UTC, à des minutes
+    # creuses : le script attend 12h puis 18h à Paris et publie une vidéo par créneau.
+    - cron: "7,37 10-21 * * *"
   workflow_dispatch:
     inputs:
       essai:
@@ -79,4 +79,4 @@ jobs:
           git config user.name "anim-en-poche-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add publication/publications.json 2>/dev/null || true
-          git diff --cached --quiet || (git commit -m "Registre : publication du $(TZ=Europe/Paris date +%F)" && git push)
+          git diff --cached --quiet || (git commit -m "Registre : publication du $(TZ=Europe/Paris date '+%F %Hh%M')" && git push)
