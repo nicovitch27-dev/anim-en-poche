@@ -15,7 +15,7 @@ def publier(video, meta, config, url_video=None):
             f"1. Télécharge la vidéo : {url_video or '(voir le dépôt)'}\n"
             "2. Appli Pinterest → **+** → **Épingle** → choisis la vidéo\n"
             f"3. **Titre** : `{meta['titre']}`\n"
-            f"4. **Lien** : `{config['lien_site']}`\n"
+            f"4. **Lien** : `{meta['lien']}`\n"
             "5. **Description** : colle le bloc ci-dessous, choisis le tableau, puis **Publier**\n"
             f"```\n{meta['description']}\n```")}
     h = {"Authorization": f"Bearer {tok}"}
@@ -34,7 +34,7 @@ def publier(video, meta, config, url_video=None):
             raise RuntimeError("Pinterest n'a pas pu traiter la vidéo")
     p = requests.post(f"{API}/pins", headers=h, timeout=60, json={
         "board_id": board, "title": meta["titre"], "description": meta["description"][:500],
-        "link": config["lien_site"], "alt_text": f"Règles du jeu {meta['titre']} expliquées en vidéo",
+        "link": meta["lien"], "alt_text": f"Règles du jeu {meta['titre']} expliquées en vidéo",
         "media_source": {"source_type": "video_id", "media_id": m["media_id"],
                          "cover_image_key_frame_time": config["seconde_couverture"]}})
     if not p.ok:

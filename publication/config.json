@@ -24,8 +24,10 @@
   },
 
   "seconde_couverture": 2,
-  "accroche": "Tu cherches un grand jeu dynamique et collectif à animer avec ton groupe à l'école, en centre de loisirs ou en colo ? Découvre les règles en vidéo !",
-  "hashtags": "#animation #ACM #centredeloisirs #animenpoche #sport",
+  "suffixe_titre": "jeu pour enfants, les règles en 1 minute",
+  "accroche": "la règle du jeu en vidéo, prête à animer avec ton groupe en accueil de loisirs, en périscolaire, à l'école ou en colo. 📌 Enregistre-la pour ta prochaine animation !",
+  "pied": "🎲 Plus de 1 600 jeux, des outils pour diriger un ACM et tout sur le BAFA / BAFD, gratuitement sur https://animenpoche.fr",
+  "hashtags": "#centredeloisirs #animateur #BAFA #ACM #jeuxenfants #colo #periscolaire",
 
   "youtube_confidentialite": "public",
   "youtube_categorie": "27",
@@ -33,5 +35,6 @@
   "fb_page_id": "1278419738699018",
   "graph_version": "v26.0",
   "pinterest_board_id": null,
-  "lien_site": "https://nicovitch27-dev.github.io/anim-en-poche/"
+  "site": "https://animenpoche.fr",
+  "lien_site": "https://animenpoche.fr/videos"
 }

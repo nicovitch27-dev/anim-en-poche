@@ -12,6 +12,7 @@ import subprocess
 import sys
 import tempfile
 import traceback
+import unicodedata
 from datetime import datetime
 from pathlib import Path
 from urllib.parse import quote
@@ -126,9 +127,43 @@ def duree(video):
     return float(out.strip())
 
 
+# ---------- lien vers la fiche du jeu sur animenpoche.fr ----------
+
+def _slug(s):
+    s = unicodedata.normalize("NFD", s.lower()).encode("ascii", "ignore").decode()
+    return re.sub(r"[^a-z0-9]+", "-", re.sub(r"['’]", "-", s)).strip("-")[:80]
+
+
+ARTICLE_RE = re.compile(r"^(la|le|les|l|un|une|des)-")
+
+
+def lien_fiche(titre):
+    """Adresse de la fiche du jeu du même nom (même règle d'adresse que le site), lue dans le plan du site ;
+    à défaut, la page des vidéos."""
+    try:
+        plan = requests.get(f"{CONFIG['site']}/sitemap.xml", timeout=60).text
+    except requests.RequestException:
+        return CONFIG["lien_site"]
+    fiches = {}
+    for u in re.findall(r"<loc>([^<]+/jeux/[^/<]+/[^/<]+)</loc>", plan):
+        fiches.setdefault(u.rsplit("/", 1)[1], u)
+    s = _slug(titre)
+    if s in fiches:
+        return fiches[s]
+    sans = ARTICLE_RE.sub("", s)
+    return next((u for k, u in fiches.items() if ARTICLE_RE.sub("", k) == sans), CONFIG["lien_site"])
+
+
 def metadonnees(titre):
-    description = f"{titre}\n\n{CONFIG['accroche']}\n\n{CONFIG['hashtags']}"
-    return {"titre": titre[:100], "description": description}
+    lien = lien_fiche(titre)
+    # « : jeu… » en fin de titre est retiré par le site quand il range la vidéo sur la fiche du jeu
+    long = f"{titre} : {CONFIG['suffixe_titre']}"
+    description = (
+        f"{titre} : {CONFIG['accroche']}\n"
+        f"📄 Fiche complète gratuite, avec variantes et conseils d'animateur : {lien}\n\n"
+        f"{CONFIG['pied']}\n\n{CONFIG['hashtags']}"
+    )
+    return {"titre": long if len(long) <= 100 else titre[:100], "description": description, "lien": lien}
 
 
 # ---------- programme principal ----------
