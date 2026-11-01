@@ -1131,5 +1131,13 @@
         }
       }
     }
+  },
+  "carrousels": {
+    "01-halloween": {
+      "date": "2026-11-01",
+      "titre": "8 bricolages d'Halloween faciles 🎃",
+      "id": "p_inbox_url~v2.7703174960558213142",
+      "statut": "SEND_TO_USER_INBOX"
+    }
   }
 }
