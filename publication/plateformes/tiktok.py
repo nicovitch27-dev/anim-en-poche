@@ -8,16 +8,34 @@ API = "https://open.tiktokapis.com/v2"
 
 
 def jeton():
-    r = requests.post(f"{API}/oauth/token/", data={
-        "client_key": os.environ["TIKTOK_CLIENT_KEY"],
-        "client_secret": os.environ["TIKTOK_CLIENT_SECRET"],
-        "grant_type": "refresh_token",
-        "refresh_token": os.environ["TIKTOK_REFRESH_TOKEN"],
-    }, timeout=30)
-    d = r.json()
-    if "access_token" not in d:
-        raise RuntimeError(f"jeton TikTok refusé : {d}")
-    return d["access_token"], d.get("refresh_token") != os.environ["TIKTOK_REFRESH_TOKEN"]
+    # TikTok répond parfois vide (page d'erreur, limite de débit) : on réessaie avant d'abandonner.
+    erreur = "?"
+    for attente in (0, 30, 90, 180):
+        time.sleep(attente)
+        try:
+            r = requests.post(f"{API}/oauth/token/", headers={"Cache-Control": "no-cache"}, data={
+                "client_key": os.environ["TIKTOK_CLIENT_KEY"],
+                "client_secret": os.environ["TIKTOK_CLIENT_SECRET"],
+                "grant_type": "refresh_token",
+                "refresh_token": os.environ["TIKTOK_REFRESH_TOKEN"],
+            }, timeout=30)
+        except requests.RequestException as e:
+            erreur = f"connexion : {e.__class__.__name__}"
+            print(f"Jeton TikTok, essai raté ({erreur})")
+            continue
+        try:
+            d = r.json()
+        except ValueError:
+            erreur = f"HTTP {r.status_code}, réponse illisible « {r.text[:150]} »"
+            print(f"Jeton TikTok, essai raté ({erreur})")
+            continue
+        if "access_token" in d:
+            return d["access_token"], d.get("refresh_token") != os.environ["TIKTOK_REFRESH_TOKEN"]
+        erreur = f"HTTP {r.status_code} : {d}"
+        print(f"Jeton TikTok, essai raté ({erreur})")
+        if d.get("error") in ("invalid_grant", "invalid_client"):
+            break  # inutile d'insister : il faut reconnecter le compte
+    raise RuntimeError(f"jeton TikTok refusé : {erreur}")
 
 
 def publier(video, meta):
