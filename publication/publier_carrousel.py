@@ -38,8 +38,10 @@ def fenetre(periode, jour):
     return None
 
 
-def choisir(carrousels, faits, jour):
-    """carrousels : {nom: infos}. Renvoie le nom à publier ce jour-là, ou None."""
+def choisir(carrousels, faits, jour, horizon=None):
+    """carrousels : {nom: infos}, faits : {nom: {"date": "AAAA-MM-JJ", …}}. Renvoie le nom à publier ce
+    jour-là, ou None. Les thèmes « toute l'année » sont espacés pour que le stock tienne jusqu'à
+    l'horizon : écart = jours restants / carrousels restants (1 jour dès qu'il y a assez de stock)."""
     dus, libres = [], []
     for nom, i in carrousels.items():
         if nom in faits:
@@ -54,8 +56,17 @@ def choisir(carrousels, faits, jour):
         echeance = f[0] + timedelta(days=int((i.get("numero", 1) - 0.5) * duree / i.get("total", 1)))
         if jour >= echeance:
             dus.append((f[1], echeance, i.get("ordre", 99), nom))   # la saison qui finit le plus tôt d'abord
-    choix = min(dus) if dus else min(libres) if libres else None
-    return choix[-1] if choix else None
+    if dus:
+        return min(dus)[-1]
+    if not libres:
+        return None
+    if horizon:
+        restants = sum(1 for n in carrousels if n not in faits)
+        ecart = max(1, (horizon - jour).days // restants)
+        dates = [date.fromisoformat(p["date"]) for p in faits.values() if p.get("date")]
+        if dates and (jour - max(dates)).days < ecart:
+            return None
+    return min(libres)[-1]
 
 
 def main():
@@ -79,7 +90,8 @@ def main():
 
     carrousels = {d.name: json.loads((d / "infos.json").read_text())
                   for d in DOSSIER.iterdir() if (d / "infos.json").exists()}
-    nom = args.forcer or choisir(carrousels, faits, maintenant.date())
+    horizon = date.fromisoformat(CONFIG["carrousels_jusqua"]) if CONFIG.get("carrousels_jusqua") else None
+    nom = args.forcer or choisir(carrousels, faits, maintenant.date(), horizon)
     if not nom:
         print("Aucun carrousel prévu aujourd'hui (rien de la saison, plus de thème toute l'année).")
         if not any(n not in faits for n in carrousels):

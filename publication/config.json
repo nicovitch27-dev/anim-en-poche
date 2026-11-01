@@ -4,6 +4,7 @@
   "dossier_videos": "motion/videos-realisees",
   "heures_paris": [12, 18],
   "heure_carrousel": 12,
+  "carrousels_jusqua": "2027-10-31",
   "pages": "https://nicovitch27-dev.github.io/anim-en-poche/",
 
   "prioritaires": [
