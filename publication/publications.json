@@ -1188,8 +1188,10 @@
           "lien": "https://youtu.be/AeuB0fr1M8s"
         },
         "tiktok": {
-          "ok": false,
-          "erreur": "Expecting value: line 1 column 1 (char 0)"
+          "ok": true,
+          "id": "v_inbox_file~v2.7703316106031155222",
+          "note": "(brouillon envoyé dans l'appli)",
+          "a_faire": "📱 **TikTok** : ouvre l'appli → notification « brouillon » → colle la légende puis Publier :\n```\nLes Lapins dans leur Terrier : la règle du jeu en vidéo, prête à animer avec ton groupe en accueil de loisirs, en périscolaire, à l'école ou en colo. 📌 Enregistre-la pour ta prochaine animation !\n📄 Fiche complète gratuite, avec variantes et conseils d'animateur : https://animenpoche.fr/jeux/jeux-dynamiques/les-lapins-dans-leur-terrier-ronde\n\n🎲 Plus de 1 600 jeux, des outils pour diriger un ACM et tout sur le BAFA / BAFD, gratuitement sur https://animenpoche.fr\n\n#centredeloisirs #animateur #BAFA #ACM #jeuxenfants #colo #periscolaire\n```"
         },
         "instagram": {
           "ok": true,
