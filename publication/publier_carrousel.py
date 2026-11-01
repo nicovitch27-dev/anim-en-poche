@@ -1,7 +1,10 @@
-"""Carrousel TikTok du jour : envoie en brouillon le prochain dossier de carrousels/ pas encore publié.
+"""Carrousel TikTok du jour : envoie en brouillon le carrousel que le calendrier désigne.
 
-Chaque dossier contient les diapos (01-….jpg, 02-….jpg, … dans l'ordre) et infos.json :
-    {"titre": "…", "description": "légende + hashtags", "son": "mot à chercher dans les sons TikTok"}
+Chaque dossier de carrousels/ contient les diapos (01-….jpg, 02-….jpg, … dans l'ordre) et infos.json :
+    {"titre", "description" (légende + hashtags), "son" (mot à chercher dans les sons TikTok),
+     "theme", "numero", "total" (carrousels du thème), "periode" (["MM-JJ", "MM-JJ"] ou null), "ordre"}
+Un thème de saison (Halloween, Noël, été…) n'est publié que pendant sa période, ses carrousels
+étalés régulièrement dessus ; les autres jours, on prend un thème « toute l'année », en alternant.
 Les images sont servies par GitHub Pages (préfixe vérifié chez TikTok). L'API ne permet pas de
 choisir la musique d'un brouillon : la notification Discord rappelle quel son ajouter.
 
@@ -12,7 +15,7 @@ import argparse
 import json
 import sys
 import traceback
-from datetime import datetime
+from datetime import date, datetime, timedelta
 from pathlib import Path
 from urllib.parse import quote
 
@@ -22,6 +25,37 @@ from plateformes import discord, tiktok  # noqa: E402
 from publier import CONFIG, PARIS, ecrire_registre, lire_registre  # noqa: E402
 
 DOSSIER = ICI.parent / "carrousels"
+
+
+def fenetre(periode, jour):
+    """(début, fin) de la période qui contient ce jour, ou None. Gère les périodes à cheval sur deux années."""
+    (md, jd), (mf, jf) = (map(int, x.split("-")) for x in periode)
+    for an in (jour.year - 1, jour.year):
+        debut = date(an, md, jd)
+        fin = date(an + (1 if (mf, jf) < (md, jd) else 0), mf, jf)
+        if debut <= jour <= fin:
+            return debut, fin
+    return None
+
+
+def choisir(carrousels, faits, jour):
+    """carrousels : {nom: infos}. Renvoie le nom à publier ce jour-là, ou None."""
+    dus, libres = [], []
+    for nom, i in carrousels.items():
+        if nom in faits:
+            continue
+        if not i.get("periode"):
+            libres.append((i.get("numero", 1), i.get("ordre", 99), nom))
+            continue
+        f = fenetre(i["periode"], jour)
+        if not f:
+            continue
+        duree = (f[1] - f[0]).days + 1
+        echeance = f[0] + timedelta(days=int((i.get("numero", 1) - 0.5) * duree / i.get("total", 1)))
+        if jour >= echeance:
+            dus.append((f[1], echeance, i.get("ordre", 99), nom))   # la saison qui finit le plus tôt d'abord
+    choix = min(dus) if dus else min(libres) if libres else None
+    return choix[-1] if choix else None
 
 
 def main():
@@ -43,12 +77,15 @@ def main():
         print("Le carrousel du jour a déjà été envoyé.")
         return 0
 
-    dossiers = sorted(d.name for d in DOSSIER.iterdir() if (d / "infos.json").exists())
-    nom = args.forcer or next((d for d in dossiers if d not in faits), None)
+    carrousels = {d.name: json.loads((d / "infos.json").read_text())
+                  for d in DOSSIER.iterdir() if (d / "infos.json").exists()}
+    nom = args.forcer or choisir(carrousels, faits, maintenant.date())
     if not nom:
-        discord.envoyer("📭 **Carrousels TikTok** : plus aucun carrousel à envoyer, demande-en d'autres !")
+        print("Aucun carrousel prévu aujourd'hui (rien de la saison, plus de thème toute l'année).")
+        if not any(n not in faits for n in carrousels):
+            discord.envoyer("📭 **Carrousels TikTok** : tous les carrousels sont publiés, demande-en d'autres !")
         return 0
-    infos = json.loads((DOSSIER / nom / "infos.json").read_text())
+    infos = carrousels[nom]
     images = sorted(p.name for p in (DOSSIER / nom).glob("*.jpg"))
     urls = [f"{CONFIG['pages']}carrousels/{quote(nom)}/{quote(i)}" for i in images]
     print(f"Carrousel : {nom} — {infos['titre']} ({len(urls)} photos)")
@@ -67,7 +104,7 @@ def main():
 
     faits[nom] = {"date": aujourdhui, "titre": infos["titre"], "id": res["id"], "statut": res["statut"]}
     ecrire_registre(reg)
-    restants = sum(1 for d in dossiers if d not in faits)
+    restants = sum(1 for d in carrousels if d not in faits)
     lignes = [f"🖼️ **Carrousel TikTok** : {infos['titre']} (`{nom}`) envoyé en brouillon — {restants} carrousels restants",
               f"📱 Ouvre TikTok → notification « brouillon » → **Ajouter un son** (cherche « {infos['son']} ») → Publier.",
               "La description et les hashtags sont déjà remplis."]

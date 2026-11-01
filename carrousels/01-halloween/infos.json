@@ -1,5 +1,13 @@
 {
   "titre": "8 bricolages d'Halloween faciles 🎃",
   "description": "8 bricolages d'Halloween faciles à faire avec ton groupe 🎃 Araignées sucettes, sorcière en boîte à œufs, chamboule-tout des monstres, plante carnivore… Matériel et étapes sur chaque photo. Enregistre-le pour ton prochain mercredi 📌 Toutes les fiches gratuites sur animenpoche.fr\n#halloween #bricolagehalloween #centredeloisirs #animateur #activitesenfants #bricolageenfant #ACM #periscolaire",
-  "son": "Halloween"
+  "son": "Halloween",
+  "theme": "halloween",
+  "numero": 1,
+  "total": 4,
+  "periode": [
+    "10-01",
+    "11-10"
+  ],
+  "ordre": 0
 }
