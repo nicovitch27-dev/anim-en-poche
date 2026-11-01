@@ -24,6 +24,10 @@ on:
         description: "Refaire seulement la miniature YouTube de ce dossier"
         type: string
         default: ""
+      seulement_carrousel:
+        description: "Envoyer seulement le carrousel TikTok (pas de vidéo)"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -48,6 +52,7 @@ jobs:
           sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null
           pip install -q requests pillow
       - name: Publier
+        if: ${{ !inputs.seulement_carrousel }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
@@ -73,6 +78,21 @@ jobs:
             [ -n "$MINIATURE" ] && ARGS="--refaire-miniature $MINIATURE"
           fi
           python publication/publier.py $ARGS
+      - name: Carrousel TikTok
+        if: always()
+        env:
+          TIKTOK_CLIENT_KEY: ${{ secrets.TIKTOK_CLIENT_KEY }}
+          TIKTOK_CLIENT_SECRET: ${{ secrets.TIKTOK_CLIENT_SECRET }}
+          TIKTOK_REFRESH_TOKEN: ${{ secrets.TIKTOK_REFRESH_TOKEN }}
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+          ESSAI: ${{ inputs.essai }}
+        run: |
+          ARGS=""
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            ARGS="--ignorer-heure"
+            [ "$ESSAI" = "true" ] && ARGS="$ARGS --essai"
+          fi
+          python publication/publier_carrousel.py $ARGS
       - name: Enregistrer le registre
         if: always()
         run: |

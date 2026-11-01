@@ -3,6 +3,8 @@
   "branche_videos": "claude/confident-archimedes-d6w5qr",
   "dossier_videos": "motion/videos-realisees",
   "heures_paris": [12, 18],
+  "heure_carrousel": 12,
+  "pages": "https://nicovitch27-dev.github.io/anim-en-poche/",
 
   "prioritaires": [
     "164-chasse-aux-chevreuils",

@@ -50,3 +50,29 @@ def publier(video, meta):
         a_faire.append("⚠️ TikTok a renvoyé un nouveau jeton : relance `outils/envoyer_secrets.py` sur le Mac.")
     res["a_faire"] = "\n".join(a_faire)
     return res
+
+
+def publier_photos(urls, titre, description):
+    """Carrousel photo en brouillon. TikTok va chercher les images lui-même : leurs adresses
+    doivent commencer par un préfixe vérifié dans le portail développeur (ici le site GitHub Pages)."""
+    tok, jeton_change = jeton()
+    h = {"Authorization": f"Bearer {tok}", "Content-Type": "application/json; charset=UTF-8"}
+    r = requests.post(f"{API}/post/publish/content/init/", headers=h, json={
+        "media_type": "PHOTO", "post_mode": "MEDIA_UPLOAD",
+        "post_info": {"title": titre[:90], "description": description[:4000]},
+        "source_info": {"source": "PULL_FROM_URL", "photo_images": urls, "photo_cover_index": 0}},
+        timeout=60).json()
+    if r.get("error", {}).get("code") != "ok":
+        raise RuntimeError(f"init TikTok (photos) : {r.get('error')}")
+    pid = r["data"]["publish_id"]
+    statut = "?"
+    for _ in range(30):
+        time.sleep(10)
+        s = requests.post(f"{API}/post/publish/status/fetch/", headers=h, json={"publish_id": pid}, timeout=30).json()
+        statut = s.get("data", {}).get("status", "?")
+        if statut in ("SEND_TO_USER_INBOX", "PUBLISH_COMPLETE"):
+            break
+        if statut == "FAILED":
+            raise RuntimeError(f"TikTok a refusé le carrousel : {s.get('data', {}).get('fail_reason')}")
+    res = {"id": pid, "statut": statut, "jeton_change": jeton_change}
+    return res
