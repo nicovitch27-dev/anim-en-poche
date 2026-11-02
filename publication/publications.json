@@ -1210,6 +1210,46 @@
           "a_faire": "📌 **Pinterest** (à poster à la main, 2 min) :\n1. Télécharge la vidéo : https://raw.githubusercontent.com/nicovitch27-dev/anim-en-poche/claude/confident-archimedes-d6w5qr/motion/videos-realisees/1637-lapins-terrier/1637%20-%20Les%20Lapins%20dans%20leur%20Terrier%20-%20TIKTOK.mp4\n2. Appli Pinterest → **+** → **Épingle** → choisis la vidéo\n3. **Titre** : `Les Lapins dans leur Terrier : jeu pour enfants, les règles en 1 minute`\n4. **Lien** : `https://animenpoche.fr/jeux/jeux-dynamiques/les-lapins-dans-leur-terrier-ronde`\n5. **Description** : colle le bloc ci-dessous, choisis le tableau, puis **Publier**\n```\nLes Lapins dans leur Terrier : la règle du jeu en vidéo, prête à animer avec ton groupe en accueil de loisirs, en périscolaire, à l'école ou en colo. 📌 Enregistre-la pour ta prochaine animation !\n📄 Fiche complète gratuite, avec variantes et conseils d'animateur : https://animenpoche.fr/jeux/jeux-dynamiques/les-lapins-dans-leur-terrier-ronde\n\n🎲 Plus de 1 600 jeux, des outils pour diriger un ACM et tout sur le BAFA / BAFD, gratuitement sur https://animenpoche.fr\n\n#centredeloisirs #animateur #BAFA #ACM #jeuxenfants #colo #periscolaire\n```"
         }
       }
+    },
+    "1642-chameau-chamois": {
+      "date": "2026-11-02",
+      "creneau": 12,
+      "titre": "Chameau Chamois",
+      "resultats": {
+        "youtube": {
+          "ok": true,
+          "id": "tfFoJTqJKS8",
+          "lien": "https://youtu.be/tfFoJTqJKS8",
+          "note": "(miniature ok) (playlist « Jeux dynamiques pour enfants : les règles en vidéo »)"
+        },
+        "youtube_short": {
+          "ok": true,
+          "id": "NXoC5Syx3OA",
+          "lien": "https://youtu.be/NXoC5Syx3OA"
+        },
+        "tiktok": {
+          "ok": true,
+          "id": "v_inbox_file~v2.7703527556095625238",
+          "note": "(statut PROCESSING_UPLOAD)",
+          "a_faire": "📱 **TikTok** : ouvre l'appli → notification « brouillon » → colle la légende puis Publier :\n```\nChameau Chamois : la règle du jeu en vidéo, prête à animer avec ton groupe en accueil de loisirs, en périscolaire, à l'école ou en colo. 📌 Enregistre-la pour ta prochaine animation !\n📄 Fiche complète gratuite, avec variantes et conseils d'animateur : https://animenpoche.fr/jeux/jeux-dynamiques/chameau-chamois-chacal\n\n🎲 Plus de 1 600 jeux, des outils pour diriger un ACM et tout sur le BAFA / BAFD, gratuitement sur https://animenpoche.fr\n\n#centredeloisirs #animateur #BAFA #ACM #jeuxenfants #colo #periscolaire\n```"
+        },
+        "instagram": {
+          "ok": true,
+          "id": "18142819414716403",
+          "lien": "https://www.instagram.com/reel/DfPKVwBDFQp/"
+        },
+        "facebook": {
+          "ok": true,
+          "id": "2023496395764222",
+          "lien": "https://www.facebook.com/reel/2023496395764222",
+          "note": "(couverture ok)"
+        },
+        "pinterest": {
+          "ok": true,
+          "note": "(manuel : kit envoyé sur Discord)",
+          "a_faire": "📌 **Pinterest** (à poster à la main, 2 min) :\n1. Télécharge la vidéo : https://raw.githubusercontent.com/nicovitch27-dev/anim-en-poche/claude/confident-archimedes-d6w5qr/motion/videos-realisees/1642-chameau-chamois/1642%20-%20Chameau%20Chamois%20-%20TIKTOK.mp4\n2. Appli Pinterest → **+** → **Épingle** → choisis la vidéo\n3. **Titre** : `Chameau Chamois : jeu pour enfants, les règles en 1 minute`\n4. **Lien** : `https://animenpoche.fr/jeux/jeux-dynamiques/chameau-chamois-chacal`\n5. **Description** : colle le bloc ci-dessous, choisis le tableau, puis **Publier**\n```\nChameau Chamois : la règle du jeu en vidéo, prête à animer avec ton groupe en accueil de loisirs, en périscolaire, à l'école ou en colo. 📌 Enregistre-la pour ta prochaine animation !\n📄 Fiche complète gratuite, avec variantes et conseils d'animateur : https://animenpoche.fr/jeux/jeux-dynamiques/chameau-chamois-chacal\n\n🎲 Plus de 1 600 jeux, des outils pour diriger un ACM et tout sur le BAFA / BAFD, gratuitement sur https://animenpoche.fr\n\n#centredeloisirs #animateur #BAFA #ACM #jeuxenfants #colo #periscolaire\n```"
+        }
+      }
     }
   },
   "carrousels": {
@@ -1217,6 +1257,12 @@
       "date": "2026-11-01",
       "titre": "8 bricolages d'Halloween faciles 🎃",
       "id": "p_inbox_url~v2.7703174960558213142",
+      "statut": "SEND_TO_USER_INBOX"
+    },
+    "02-halloween-2": {
+      "date": "2026-11-02",
+      "titre": "8 nouvelles idées pour Halloween 👻",
+      "id": "p_inbox_url~v2.7703529263890319382",
       "statut": "SEND_TO_USER_INBOX"
     }
   }
