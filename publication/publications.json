@@ -1370,6 +1370,46 @@
           "a_faire": "📌 **Pinterest** (à poster à la main, 2 min) :\n1. Télécharge la vidéo : https://raw.githubusercontent.com/nicovitch27-dev/anim-en-poche/claude/confident-archimedes-d6w5qr/motion/videos-realisees/1663-momie/1663%20-%20La%20Momie%20-%20TIKTOK.mp4\n2. Appli Pinterest → **+** → **Épingle** → choisis la vidéo\n3. **Titre** : `La Momie : jeu pour enfants, les règles en 1 minute`\n4. **Lien** : `https://animenpoche.fr/jeux/jeux-cooperatifs/la-momie-mummy-wrap`\n5. **Description** : colle le bloc ci-dessous, choisis le tableau, puis **Publier**\n```\nLa Momie : la règle du jeu en vidéo, prête à animer avec ton groupe en accueil de loisirs, en périscolaire, à l'école ou en colo. 📌 Enregistre-la pour ta prochaine animation !\n📄 Fiche complète gratuite, avec variantes et conseils d'animateur : https://animenpoche.fr/jeux/jeux-cooperatifs/la-momie-mummy-wrap\n\n🎲 Plus de 1 600 jeux, des outils pour diriger un ACM et tout sur le BAFA / BAFD, gratuitement sur https://animenpoche.fr\n\n#centredeloisirs #animateur #BAFA #ACM #jeuxenfants #colo #periscolaire\n```"
         }
       }
+    },
+    "1664-tape-claque": {
+      "date": "2026-11-04",
+      "creneau": 12,
+      "titre": "Tape, Claque, Claquement de Doigts",
+      "resultats": {
+        "youtube": {
+          "ok": true,
+          "id": "Ol4E7ui2uCs",
+          "lien": "https://youtu.be/Ol4E7ui2uCs",
+          "note": "(miniature ok) (playlist « Jeux d'attention pour enfants : les règles en vidéo »)"
+        },
+        "youtube_short": {
+          "ok": true,
+          "id": "lsSj9dyoDec",
+          "lien": "https://youtu.be/lsSj9dyoDec"
+        },
+        "tiktok": {
+          "ok": true,
+          "id": "v_inbox_file~v2.7704269787379124227",
+          "note": "(statut PROCESSING_UPLOAD)",
+          "a_faire": "📱 **TikTok** : ouvre l'appli → notification « brouillon » → colle la légende puis Publier :\n```\nTape, Claque, Claquement de Doigts : la règle du jeu en vidéo, prête à animer avec ton groupe en accueil de loisirs, en périscolaire, à l'école ou en colo. 📌 Enregistre-la pour ta prochaine animation !\n📄 Fiche complète gratuite, avec variantes et conseils d'animateur : https://animenpoche.fr/jeux/jeux-d-attention/tape-claque-claquement-de-doigts\n\n🎲 Plus de 1 600 jeux, des outils pour diriger un ACM et tout sur le BAFA / BAFD, gratuitement sur https://animenpoche.fr\n\n#centredeloisirs #animateur #BAFA #ACM #jeuxenfants #colo #periscolaire\n```"
+        },
+        "instagram": {
+          "ok": true,
+          "id": "17971405239198496",
+          "lien": "https://www.instagram.com/reel/DfUT9slAowY/"
+        },
+        "facebook": {
+          "ok": true,
+          "id": "2023624848335757",
+          "lien": "https://www.facebook.com/reel/2023624848335757",
+          "note": "(couverture ok)"
+        },
+        "pinterest": {
+          "ok": true,
+          "note": "(manuel : kit envoyé sur Discord)",
+          "a_faire": "📌 **Pinterest** (à poster à la main, 2 min) :\n1. Télécharge la vidéo : https://raw.githubusercontent.com/nicovitch27-dev/anim-en-poche/claude/confident-archimedes-d6w5qr/motion/videos-realisees/1664-tape-claque/1664%20-%20Tape%2C%20Claque%2C%20Claquement%20de%20Doigts%20-%20TIKTOK.mp4\n2. Appli Pinterest → **+** → **Épingle** → choisis la vidéo\n3. **Titre** : `Tape, Claque, Claquement de Doigts : jeu pour enfants, les règles en 1 minute`\n4. **Lien** : `https://animenpoche.fr/jeux/jeux-d-attention/tape-claque-claquement-de-doigts`\n5. **Description** : colle le bloc ci-dessous, choisis le tableau, puis **Publier**\n```\nTape, Claque, Claquement de Doigts : la règle du jeu en vidéo, prête à animer avec ton groupe en accueil de loisirs, en périscolaire, à l'école ou en colo. 📌 Enregistre-la pour ta prochaine animation !\n📄 Fiche complète gratuite, avec variantes et conseils d'animateur : https://animenpoche.fr/jeux/jeux-d-attention/tape-claque-claquement-de-doigts\n\n🎲 Plus de 1 600 jeux, des outils pour diriger un ACM et tout sur le BAFA / BAFD, gratuitement sur https://animenpoche.fr\n\n#centredeloisirs #animateur #BAFA #ACM #jeuxenfants #colo #periscolaire\n```"
+        }
+      }
     }
   },
   "carrousels": {
@@ -1389,6 +1429,12 @@
       "date": "2026-11-03",
       "titre": "Encore 8 bricolages d'Halloween 🎃",
       "id": "p_inbox_url~v2.7703900328458356758",
+      "statut": "SEND_TO_USER_INBOX"
+    },
+    "automne-1": {
+      "date": "2026-11-04",
+      "titre": "8 bricolages d'automne faciles 🍂",
+      "id": "p_inbox_url~v2.7704271581824092182",
       "statut": "SEND_TO_USER_INBOX"
     }
   }
