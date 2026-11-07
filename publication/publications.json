@@ -1610,6 +1610,46 @@
           "a_faire": "📌 **Pinterest** (à poster à la main, 2 min) :\n1. Télécharge la vidéo : https://raw.githubusercontent.com/nicovitch27-dev/anim-en-poche/claude/confident-archimedes-d6w5qr/motion/videos-realisees/1669-espions-dragons/1669%20-%20Espions%20et%20Dragons%20-%20TIKTOK.mp4\n2. Appli Pinterest → **+** → **Épingle** → choisis la vidéo\n3. **Titre** : `Espions et Dragons : jeu pour enfants, les règles en 1 minute`\n4. **Lien** : `https://animenpoche.fr/jeux/jeux-de-poursuite/espions-et-dragons`\n5. **Description** : colle le bloc ci-dessous, choisis le tableau, puis **Publier**\n```\nEspions et Dragons : la règle du jeu en vidéo, prête à animer avec ton groupe en accueil de loisirs, en périscolaire, à l'école ou en colo. 📌 Enregistre-la pour ta prochaine animation !\n📄 Fiche complète gratuite, avec variantes et conseils d'animateur : https://animenpoche.fr/jeux/jeux-de-poursuite/espions-et-dragons\n\n🎲 Plus de 1 600 jeux, des outils pour diriger un ACM et tout sur le BAFA / BAFD, gratuitement sur https://animenpoche.fr\n\n#centredeloisirs #animateur #BAFA #ACM #jeuxenfants #colo #periscolaire\n```"
         }
       }
+    },
+    "1670-trois-tapes": {
+      "date": "2026-11-07",
+      "creneau": 12,
+      "titre": "Les Trois Tapes",
+      "resultats": {
+        "youtube": {
+          "ok": true,
+          "id": "TMAFcY6njmw",
+          "lien": "https://youtu.be/TMAFcY6njmw",
+          "note": "(miniature ok) (playlist « Jeux de poursuite pour enfants : les règles en vidéo »)"
+        },
+        "youtube_short": {
+          "ok": true,
+          "id": "3qxCPak78vc",
+          "lien": "https://youtu.be/3qxCPak78vc"
+        },
+        "tiktok": {
+          "ok": true,
+          "id": "v_inbox_file~v2.7705382969913378818",
+          "note": "(statut PROCESSING_UPLOAD)",
+          "a_faire": "📱 **TikTok** : ouvre l'appli → notification « brouillon » → colle la légende puis Publier :\n```\nLes Trois Tapes : la règle du jeu en vidéo, prête à animer avec ton groupe en accueil de loisirs, en périscolaire, à l'école ou en colo. 📌 Enregistre-la pour ta prochaine animation !\n📄 Fiche complète gratuite, avec variantes et conseils d'animateur : https://animenpoche.fr/jeux/jeux-de-poursuite/les-trois-tapes\n\n🎲 Plus de 1 600 jeux, des outils pour diriger un ACM et tout sur le BAFA / BAFD, gratuitement sur https://animenpoche.fr\n\n#centredeloisirs #animateur #BAFA #ACM #jeuxenfants #colo #periscolaire\n```"
+        },
+        "instagram": {
+          "ok": true,
+          "id": "18171206086466978",
+          "lien": "https://www.instagram.com/reel/DfcCWi1iQSB/"
+        },
+        "facebook": {
+          "ok": true,
+          "id": "1071770499249378",
+          "lien": "https://www.facebook.com/reel/1071770499249378",
+          "note": "(couverture ok)"
+        },
+        "pinterest": {
+          "ok": true,
+          "note": "(manuel : kit envoyé sur Discord)",
+          "a_faire": "📌 **Pinterest** (à poster à la main, 2 min) :\n1. Télécharge la vidéo : https://raw.githubusercontent.com/nicovitch27-dev/anim-en-poche/claude/confident-archimedes-d6w5qr/motion/videos-realisees/1670-trois-tapes/1670%20-%20Les%20Trois%20Tapes%20-%20TIKTOK.mp4\n2. Appli Pinterest → **+** → **Épingle** → choisis la vidéo\n3. **Titre** : `Les Trois Tapes : jeu pour enfants, les règles en 1 minute`\n4. **Lien** : `https://animenpoche.fr/jeux/jeux-de-poursuite/les-trois-tapes`\n5. **Description** : colle le bloc ci-dessous, choisis le tableau, puis **Publier**\n```\nLes Trois Tapes : la règle du jeu en vidéo, prête à animer avec ton groupe en accueil de loisirs, en périscolaire, à l'école ou en colo. 📌 Enregistre-la pour ta prochaine animation !\n📄 Fiche complète gratuite, avec variantes et conseils d'animateur : https://animenpoche.fr/jeux/jeux-de-poursuite/les-trois-tapes\n\n🎲 Plus de 1 600 jeux, des outils pour diriger un ACM et tout sur le BAFA / BAFD, gratuitement sur https://animenpoche.fr\n\n#centredeloisirs #animateur #BAFA #ACM #jeuxenfants #colo #periscolaire\n```"
+        }
+      }
     }
   },
   "carrousels": {
@@ -1647,6 +1687,12 @@
       "date": "2026-11-06",
       "titre": "8 autres bricolages d'automne 🍂",
       "id": "p_inbox_url~v2.7705013686158821398",
+      "statut": "SEND_TO_USER_INBOX"
+    },
+    "automne-3": {
+      "date": "2026-11-07",
+      "titre": "Encore 8 bricolages d'automne 🍂",
+      "id": "p_inbox_url~v2.7705384719030044694",
       "statut": "SEND_TO_USER_INBOX"
     }
   }
