@@ -1690,6 +1690,46 @@
           "a_faire": "📌 **Pinterest** (à poster à la main, 2 min) :\n1. Télécharge la vidéo : https://raw.githubusercontent.com/nicovitch27-dev/anim-en-poche/claude/confident-archimedes-d6w5qr/motion/videos-realisees/1672-voleurs-souliers/1672%20-%20Voleurs%20de%20Souliers%20-%20TIKTOK.mp4\n2. Appli Pinterest → **+** → **Épingle** → choisis la vidéo\n3. **Titre** : `Voleurs de Souliers : jeu pour enfants, les règles en 1 minute`\n4. **Lien** : `https://animenpoche.fr/jeux/jeux-de-poursuite/voleurs-de-souliers`\n5. **Description** : colle le bloc ci-dessous, choisis le tableau, puis **Publier**\n```\nVoleurs de Souliers : la règle du jeu en vidéo, prête à animer avec ton groupe en accueil de loisirs, en périscolaire, à l'école ou en colo. 📌 Enregistre-la pour ta prochaine animation !\n📄 Fiche complète gratuite, avec variantes et conseils d'animateur : https://animenpoche.fr/jeux/jeux-de-poursuite/voleurs-de-souliers\n\n🎲 Plus de 1 600 jeux, des outils pour diriger un ACM et tout sur le BAFA / BAFD, gratuitement sur https://animenpoche.fr\n\n#centredeloisirs #animateur #BAFA #ACM #jeuxenfants #colo #periscolaire\n```"
         }
       }
+    },
+    "1674-demineur": {
+      "date": "2026-11-08",
+      "creneau": 12,
+      "titre": "Le Démineur",
+      "resultats": {
+        "youtube": {
+          "ok": true,
+          "id": "ZBmQfK-FUMk",
+          "lien": "https://youtu.be/ZBmQfK-FUMk",
+          "note": "(miniature ok) (playlist « Jeux de poursuite pour enfants : les règles en vidéo »)"
+        },
+        "youtube_short": {
+          "ok": true,
+          "id": "3XpXl9rqD4E",
+          "lien": "https://youtu.be/3XpXl9rqD4E"
+        },
+        "tiktok": {
+          "ok": true,
+          "id": "v_inbox_file~v2.7705754084175792131",
+          "note": "(statut PROCESSING_UPLOAD)",
+          "a_faire": "📱 **TikTok** : ouvre l'appli → notification « brouillon » → colle la légende puis Publier :\n```\nLe Démineur : la règle du jeu en vidéo, prête à animer avec ton groupe en accueil de loisirs, en périscolaire, à l'école ou en colo. 📌 Enregistre-la pour ta prochaine animation !\n📄 Fiche complète gratuite, avec variantes et conseils d'animateur : https://animenpoche.fr/jeux/jeux-de-poursuite/le-demineur\n\n🎲 Plus de 1 600 jeux, des outils pour diriger un ACM et tout sur le BAFA / BAFD, gratuitement sur https://animenpoche.fr\n\n#centredeloisirs #animateur #BAFA #ACM #jeuxenfants #colo #periscolaire\n```"
+        },
+        "instagram": {
+          "ok": true,
+          "id": "18087158705719000",
+          "lien": "https://www.instagram.com/reel/DfenH-mE0V4/"
+        },
+        "facebook": {
+          "ok": true,
+          "id": "1108023215479424",
+          "lien": "https://www.facebook.com/reel/1108023215479424",
+          "note": "(couverture ok)"
+        },
+        "pinterest": {
+          "ok": true,
+          "note": "(manuel : kit envoyé sur Discord)",
+          "a_faire": "📌 **Pinterest** (à poster à la main, 2 min) :\n1. Télécharge la vidéo : https://raw.githubusercontent.com/nicovitch27-dev/anim-en-poche/claude/confident-archimedes-d6w5qr/motion/videos-realisees/1674-demineur/1674%20-%20Le%20D%C3%A9mineur%20-%20TIKTOK.mp4\n2. Appli Pinterest → **+** → **Épingle** → choisis la vidéo\n3. **Titre** : `Le Démineur : jeu pour enfants, les règles en 1 minute`\n4. **Lien** : `https://animenpoche.fr/jeux/jeux-de-poursuite/le-demineur`\n5. **Description** : colle le bloc ci-dessous, choisis le tableau, puis **Publier**\n```\nLe Démineur : la règle du jeu en vidéo, prête à animer avec ton groupe en accueil de loisirs, en périscolaire, à l'école ou en colo. 📌 Enregistre-la pour ta prochaine animation !\n📄 Fiche complète gratuite, avec variantes et conseils d'animateur : https://animenpoche.fr/jeux/jeux-de-poursuite/le-demineur\n\n🎲 Plus de 1 600 jeux, des outils pour diriger un ACM et tout sur le BAFA / BAFD, gratuitement sur https://animenpoche.fr\n\n#centredeloisirs #animateur #BAFA #ACM #jeuxenfants #colo #periscolaire\n```"
+        }
+      }
     }
   },
   "carrousels": {
