@@ -1970,6 +1970,46 @@
           "a_faire": "📌 **Pinterest** (à poster à la main, 2 min) :\n1. Télécharge la vidéo : https://raw.githubusercontent.com/nicovitch27-dev/anim-en-poche/claude/confident-archimedes-d6w5qr/motion/videos-realisees/1682-lutins-farfadets/1682%20-%20Les%20Lutins%20et%20les%20Farfadets%20-%20TIKTOK.mp4\n2. Appli Pinterest → **+** → **Épingle** → choisis la vidéo\n3. **Titre** : `Les Lutins et les Farfadets : jeu pour enfants, les règles en 1 minute`\n4. **Lien** : `https://animenpoche.fr/jeux/jeux-de-poursuite/les-lutins-et-les-farfadets`\n5. **Description** : colle le bloc ci-dessous, choisis le tableau, puis **Publier**\n```\nLes Lutins et les Farfadets : la règle du jeu en vidéo, prête à animer avec ton groupe en accueil de loisirs, en périscolaire, à l'école ou en colo. 📌 Enregistre-la pour ta prochaine animation !\n📄 Fiche complète gratuite, avec variantes et conseils d'animateur : https://animenpoche.fr/jeux/jeux-de-poursuite/les-lutins-et-les-farfadets\n\n🎲 Plus de 1 600 jeux, des outils pour diriger un ACM et tout sur le BAFA / BAFD, gratuitement sur https://animenpoche.fr\n\n#centredeloisirs #animateur #BAFA #ACM #jeuxenfants #colo #periscolaire\n```"
         }
       }
+    },
+    "1683-boula-boula": {
+      "date": "2026-11-11",
+      "creneau": 18,
+      "titre": "Le Boula-Boula",
+      "resultats": {
+        "youtube": {
+          "ok": true,
+          "id": "NWPuyMxxsuk",
+          "lien": "https://youtu.be/NWPuyMxxsuk",
+          "note": "(miniature ok) (playlist « Jeux de poursuite pour enfants : les règles en vidéo »)"
+        },
+        "youtube_short": {
+          "ok": true,
+          "id": "9LcSH8KmyXw",
+          "lien": "https://youtu.be/9LcSH8KmyXw"
+        },
+        "tiktok": {
+          "ok": true,
+          "id": "v_inbox_file~v2.7706960488206321686",
+          "note": "(statut PROCESSING_UPLOAD)",
+          "a_faire": "📱 **TikTok** : ouvre l'appli → notification « brouillon » → colle la légende puis Publier :\n```\nLe Boula-Boula : la règle du jeu en vidéo, prête à animer avec ton groupe en accueil de loisirs, en périscolaire, à l'école ou en colo. 📌 Enregistre-la pour ta prochaine animation !\n📄 Fiche complète gratuite, avec variantes et conseils d'animateur : https://animenpoche.fr/jeux/jeux-de-poursuite/le-boula-boula\n\n🎲 Plus de 1 600 jeux, des outils pour diriger un ACM et tout sur le BAFA / BAFD, gratuitement sur https://animenpoche.fr\n\n#centredeloisirs #animateur #BAFA #ACM #jeuxenfants #colo #periscolaire\n```"
+        },
+        "instagram": {
+          "ok": true,
+          "id": "18454394575120317",
+          "lien": "https://www.instagram.com/reel/Dfm-2SdgU-Y/"
+        },
+        "facebook": {
+          "ok": true,
+          "id": "2788573014879195",
+          "lien": "https://www.facebook.com/reel/2788573014879195",
+          "note": "(couverture ok)"
+        },
+        "pinterest": {
+          "ok": true,
+          "note": "(manuel : kit envoyé sur Discord)",
+          "a_faire": "📌 **Pinterest** (à poster à la main, 2 min) :\n1. Télécharge la vidéo : https://raw.githubusercontent.com/nicovitch27-dev/anim-en-poche/claude/confident-archimedes-d6w5qr/motion/videos-realisees/1683-boula-boula/1683%20-%20Le%20Boula-Boula%20-%20TIKTOK.mp4\n2. Appli Pinterest → **+** → **Épingle** → choisis la vidéo\n3. **Titre** : `Le Boula-Boula : jeu pour enfants, les règles en 1 minute`\n4. **Lien** : `https://animenpoche.fr/jeux/jeux-de-poursuite/le-boula-boula`\n5. **Description** : colle le bloc ci-dessous, choisis le tableau, puis **Publier**\n```\nLe Boula-Boula : la règle du jeu en vidéo, prête à animer avec ton groupe en accueil de loisirs, en périscolaire, à l'école ou en colo. 📌 Enregistre-la pour ta prochaine animation !\n📄 Fiche complète gratuite, avec variantes et conseils d'animateur : https://animenpoche.fr/jeux/jeux-de-poursuite/le-boula-boula\n\n🎲 Plus de 1 600 jeux, des outils pour diriger un ACM et tout sur le BAFA / BAFD, gratuitement sur https://animenpoche.fr\n\n#centredeloisirs #animateur #BAFA #ACM #jeuxenfants #colo #periscolaire\n```"
+        }
+      }
     }
   },
   "carrousels": {
