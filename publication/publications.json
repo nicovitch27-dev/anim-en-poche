@@ -2050,6 +2050,46 @@
           "a_faire": "📌 **Pinterest** (à poster à la main, 2 min) :\n1. Télécharge la vidéo : https://raw.githubusercontent.com/nicovitch27-dev/anim-en-poche/claude/confident-archimedes-d6w5qr/motion/videos-realisees/1684-brique-de-feu/1684%20-%20La%20Brique%20de%20Feu%20-%20TIKTOK.mp4\n2. Appli Pinterest → **+** → **Épingle** → choisis la vidéo\n3. **Titre** : `La Brique de Feu : jeu pour enfants, les règles en 1 minute`\n4. **Lien** : `https://animenpoche.fr/jeux/jeux-d-adresse/la-brique-de-feu`\n5. **Description** : colle le bloc ci-dessous, choisis le tableau, puis **Publier**\n```\nLa Brique de Feu : la règle du jeu en vidéo, prête à animer avec ton groupe en accueil de loisirs, en périscolaire, à l'école ou en colo. 📌 Enregistre-la pour ta prochaine animation !\n📄 Fiche complète gratuite, avec variantes et conseils d'animateur : https://animenpoche.fr/jeux/jeux-d-adresse/la-brique-de-feu\n\n🎲 Plus de 1 600 jeux, des outils pour diriger un ACM et tout sur le BAFA / BAFD, gratuitement sur https://animenpoche.fr\n\n#centredeloisirs #animateur #BAFA #ACM #jeuxenfants #colo #periscolaire\n```"
         }
       }
+    },
+    "1685-menteur": {
+      "date": "2026-11-12",
+      "creneau": 18,
+      "titre": "Le Menteur",
+      "resultats": {
+        "youtube": {
+          "ok": true,
+          "id": "E9UMT5V6Phw",
+          "lien": "https://youtu.be/E9UMT5V6Phw",
+          "note": "(miniature ok) (playlist refusée : 409 Client Error: Conflict for url: https://www.googleapis.com/youtube/v3/playlistItems?part=snippet)"
+        },
+        "youtube_short": {
+          "ok": true,
+          "id": "Imwf-1kuad0",
+          "lien": "https://youtu.be/Imwf-1kuad0"
+        },
+        "tiktok": {
+          "ok": true,
+          "id": "v_inbox_file~v2.7707331193426937878",
+          "note": "(statut PROCESSING_UPLOAD)",
+          "a_faire": "📱 **TikTok** : ouvre l'appli → notification « brouillon » → colle la légende puis Publier :\n```\nLe Menteur : la règle du jeu en vidéo, prête à animer avec ton groupe en accueil de loisirs, en périscolaire, à l'école ou en colo. 📌 Enregistre-la pour ta prochaine animation !\n📄 Fiche complète gratuite, avec variantes et conseils d'animateur : https://animenpoche.fr/jeux/jeux-de-cartes/le-menteur-aux-cartes\n\n🎲 Plus de 1 600 jeux, des outils pour diriger un ACM et tout sur le BAFA / BAFD, gratuitement sur https://animenpoche.fr\n\n#centredeloisirs #animateur #BAFA #ACM #jeuxenfants #colo #periscolaire\n```"
+        },
+        "instagram": {
+          "ok": true,
+          "id": "18011762156970843",
+          "lien": "https://www.instagram.com/reel/DfpjeL3gpNS/"
+        },
+        "facebook": {
+          "ok": true,
+          "id": "1123065003824652",
+          "lien": "https://www.facebook.com/reel/1123065003824652",
+          "note": "(couverture ok)"
+        },
+        "pinterest": {
+          "ok": true,
+          "note": "(manuel : kit envoyé sur Discord)",
+          "a_faire": "📌 **Pinterest** (à poster à la main, 2 min) :\n1. Télécharge la vidéo : https://raw.githubusercontent.com/nicovitch27-dev/anim-en-poche/claude/confident-archimedes-d6w5qr/motion/videos-realisees/1685-menteur/1685%20-%20Le%20Menteur%20-%20TIKTOK.mp4\n2. Appli Pinterest → **+** → **Épingle** → choisis la vidéo\n3. **Titre** : `Le Menteur : jeu pour enfants, les règles en 1 minute`\n4. **Lien** : `https://animenpoche.fr/jeux/jeux-de-cartes/le-menteur-aux-cartes`\n5. **Description** : colle le bloc ci-dessous, choisis le tableau, puis **Publier**\n```\nLe Menteur : la règle du jeu en vidéo, prête à animer avec ton groupe en accueil de loisirs, en périscolaire, à l'école ou en colo. 📌 Enregistre-la pour ta prochaine animation !\n📄 Fiche complète gratuite, avec variantes et conseils d'animateur : https://animenpoche.fr/jeux/jeux-de-cartes/le-menteur-aux-cartes\n\n🎲 Plus de 1 600 jeux, des outils pour diriger un ACM et tout sur le BAFA / BAFD, gratuitement sur https://animenpoche.fr\n\n#centredeloisirs #animateur #BAFA #ACM #jeuxenfants #colo #periscolaire\n```"
+        }
+      }
     }
   },
   "carrousels": {
