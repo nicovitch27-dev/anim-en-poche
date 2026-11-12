@@ -2010,6 +2010,46 @@
           "a_faire": "📌 **Pinterest** (à poster à la main, 2 min) :\n1. Télécharge la vidéo : https://raw.githubusercontent.com/nicovitch27-dev/anim-en-poche/claude/confident-archimedes-d6w5qr/motion/videos-realisees/1683-boula-boula/1683%20-%20Le%20Boula-Boula%20-%20TIKTOK.mp4\n2. Appli Pinterest → **+** → **Épingle** → choisis la vidéo\n3. **Titre** : `Le Boula-Boula : jeu pour enfants, les règles en 1 minute`\n4. **Lien** : `https://animenpoche.fr/jeux/jeux-de-poursuite/le-boula-boula`\n5. **Description** : colle le bloc ci-dessous, choisis le tableau, puis **Publier**\n```\nLe Boula-Boula : la règle du jeu en vidéo, prête à animer avec ton groupe en accueil de loisirs, en périscolaire, à l'école ou en colo. 📌 Enregistre-la pour ta prochaine animation !\n📄 Fiche complète gratuite, avec variantes et conseils d'animateur : https://animenpoche.fr/jeux/jeux-de-poursuite/le-boula-boula\n\n🎲 Plus de 1 600 jeux, des outils pour diriger un ACM et tout sur le BAFA / BAFD, gratuitement sur https://animenpoche.fr\n\n#centredeloisirs #animateur #BAFA #ACM #jeuxenfants #colo #periscolaire\n```"
         }
       }
+    },
+    "1684-brique-de-feu": {
+      "date": "2026-11-12",
+      "creneau": 12,
+      "titre": "La Brique de Feu",
+      "resultats": {
+        "youtube": {
+          "ok": true,
+          "id": "Igku6hA2i0o",
+          "lien": "https://youtu.be/Igku6hA2i0o",
+          "note": "(miniature ok) (playlist « Jeux d'adresse pour enfants : les règles en vidéo »)"
+        },
+        "youtube_short": {
+          "ok": true,
+          "id": "jzfoBwSiC9Q",
+          "lien": "https://youtu.be/jzfoBwSiC9Q"
+        },
+        "tiktok": {
+          "ok": true,
+          "id": "v_inbox_file~v2.7707238409059895318",
+          "note": "(statut PROCESSING_UPLOAD)",
+          "a_faire": "📱 **TikTok** : ouvre l'appli → notification « brouillon » → colle la légende puis Publier :\n```\nLa Brique de Feu : la règle du jeu en vidéo, prête à animer avec ton groupe en accueil de loisirs, en périscolaire, à l'école ou en colo. 📌 Enregistre-la pour ta prochaine animation !\n📄 Fiche complète gratuite, avec variantes et conseils d'animateur : https://animenpoche.fr/jeux/jeux-d-adresse/la-brique-de-feu\n\n🎲 Plus de 1 600 jeux, des outils pour diriger un ACM et tout sur le BAFA / BAFD, gratuitement sur https://animenpoche.fr\n\n#centredeloisirs #animateur #BAFA #ACM #jeuxenfants #colo #periscolaire\n```"
+        },
+        "instagram": {
+          "ok": true,
+          "id": "17954662860289748",
+          "lien": "https://www.instagram.com/reel/Dfo6R3Aj8xB/"
+        },
+        "facebook": {
+          "ok": true,
+          "id": "1147251917954446",
+          "lien": "https://www.facebook.com/reel/1147251917954446",
+          "note": "(couverture ok)"
+        },
+        "pinterest": {
+          "ok": true,
+          "note": "(manuel : kit envoyé sur Discord)",
+          "a_faire": "📌 **Pinterest** (à poster à la main, 2 min) :\n1. Télécharge la vidéo : https://raw.githubusercontent.com/nicovitch27-dev/anim-en-poche/claude/confident-archimedes-d6w5qr/motion/videos-realisees/1684-brique-de-feu/1684%20-%20La%20Brique%20de%20Feu%20-%20TIKTOK.mp4\n2. Appli Pinterest → **+** → **Épingle** → choisis la vidéo\n3. **Titre** : `La Brique de Feu : jeu pour enfants, les règles en 1 minute`\n4. **Lien** : `https://animenpoche.fr/jeux/jeux-d-adresse/la-brique-de-feu`\n5. **Description** : colle le bloc ci-dessous, choisis le tableau, puis **Publier**\n```\nLa Brique de Feu : la règle du jeu en vidéo, prête à animer avec ton groupe en accueil de loisirs, en périscolaire, à l'école ou en colo. 📌 Enregistre-la pour ta prochaine animation !\n📄 Fiche complète gratuite, avec variantes et conseils d'animateur : https://animenpoche.fr/jeux/jeux-d-adresse/la-brique-de-feu\n\n🎲 Plus de 1 600 jeux, des outils pour diriger un ACM et tout sur le BAFA / BAFD, gratuitement sur https://animenpoche.fr\n\n#centredeloisirs #animateur #BAFA #ACM #jeuxenfants #colo #periscolaire\n```"
+        }
+      }
     }
   },
   "carrousels": {
@@ -2053,6 +2093,12 @@
       "date": "2026-11-07",
       "titre": "Encore 8 bricolages d'automne 🍂",
       "id": "p_inbox_url~v2.7705384719030044694",
+      "statut": "SEND_TO_USER_INBOX"
+    },
+    "dinosaures-1": {
+      "date": "2026-11-12",
+      "titre": "8 bricolages de dinosaures faciles 🦖",
+      "id": "p_inbox_url~v2.7707240170474752022",
       "statut": "SEND_TO_USER_INBOX"
     }
   }
