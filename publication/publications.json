@@ -2370,6 +2370,46 @@
           "a_faire": "📌 **Pinterest** (à poster à la main, 2 min) :\n1. Télécharge la vidéo : https://raw.githubusercontent.com/nicovitch27-dev/anim-en-poche/claude/confident-archimedes-d6w5qr/motion/videos-realisees/1692-carrefour/1692%20-%20Le%20Carrefour%20-%20TIKTOK.mp4\n2. Appli Pinterest → **+** → **Épingle** → choisis la vidéo\n3. **Titre** : `Le Carrefour : jeu pour enfants, les règles en 1 minute`\n4. **Lien** : `https://animenpoche.fr/jeux/jeux-cooperatifs/le-carrefour`\n5. **Description** : colle le bloc ci-dessous, choisis le tableau, puis **Publier**\n```\nLe Carrefour : la règle du jeu en vidéo, prête à animer avec ton groupe en accueil de loisirs, en périscolaire, à l'école ou en colo. 📌 Enregistre-la pour ta prochaine animation !\n📄 Fiche complète gratuite, avec variantes et conseils d'animateur : https://animenpoche.fr/jeux/jeux-cooperatifs/le-carrefour\n\n🎲 Plus de 1 600 jeux, des outils pour diriger un ACM et tout sur le BAFA / BAFD, gratuitement sur https://animenpoche.fr\n\n#centredeloisirs #animateur #BAFA #ACM #jeuxenfants #colo #periscolaire\n```"
         }
       }
+    },
+    "1693-baguettes-aeriennes": {
+      "date": "2026-11-16",
+      "creneau": 18,
+      "titre": "Les Baguettes Aériennes",
+      "resultats": {
+        "youtube": {
+          "ok": true,
+          "id": "_LulDvxCnXg",
+          "lien": "https://youtu.be/_LulDvxCnXg",
+          "note": "(miniature ok) (playlist « Jeux de confiance pour enfants : les règles en vidéo »)"
+        },
+        "youtube_short": {
+          "ok": true,
+          "id": "KDX64aqMvdQ",
+          "lien": "https://youtu.be/KDX64aqMvdQ"
+        },
+        "tiktok": {
+          "ok": true,
+          "id": "v_inbox_file~v2.7708815583969642518",
+          "note": "(statut PROCESSING_UPLOAD)",
+          "a_faire": "📱 **TikTok** : ouvre l'appli → notification « brouillon » → colle la légende puis Publier :\n```\nLes Baguettes Aériennes : la règle du jeu en vidéo, prête à animer avec ton groupe en accueil de loisirs, en périscolaire, à l'école ou en colo. 📌 Enregistre-la pour ta prochaine animation !\n📄 Fiche complète gratuite, avec variantes et conseils d'animateur : https://animenpoche.fr/jeux/jeux-de-confiance/les-baguettes-aeriennes\n\n🎲 Plus de 1 600 jeux, des outils pour diriger un ACM et tout sur le BAFA / BAFD, gratuitement sur https://animenpoche.fr\n\n#centredeloisirs #animateur #BAFA #ACM #jeuxenfants #colo #periscolaire\n```"
+        },
+        "instagram": {
+          "ok": true,
+          "id": "18122417831081354",
+          "lien": "https://www.instagram.com/reel/Dfz2rItDKSW/"
+        },
+        "facebook": {
+          "ok": true,
+          "id": "2144332886473138",
+          "lien": "https://www.facebook.com/reel/2144332886473138",
+          "note": "(couverture ok)"
+        },
+        "pinterest": {
+          "ok": true,
+          "note": "(manuel : kit envoyé sur Discord)",
+          "a_faire": "📌 **Pinterest** (à poster à la main, 2 min) :\n1. Télécharge la vidéo : https://raw.githubusercontent.com/nicovitch27-dev/anim-en-poche/claude/confident-archimedes-d6w5qr/motion/videos-realisees/1693-baguettes-aeriennes/1693%20-%20Les%20Baguettes%20A%C3%A9riennes%20-%20TIKTOK.mp4\n2. Appli Pinterest → **+** → **Épingle** → choisis la vidéo\n3. **Titre** : `Les Baguettes Aériennes : jeu pour enfants, les règles en 1 minute`\n4. **Lien** : `https://animenpoche.fr/jeux/jeux-de-confiance/les-baguettes-aeriennes`\n5. **Description** : colle le bloc ci-dessous, choisis le tableau, puis **Publier**\n```\nLes Baguettes Aériennes : la règle du jeu en vidéo, prête à animer avec ton groupe en accueil de loisirs, en périscolaire, à l'école ou en colo. 📌 Enregistre-la pour ta prochaine animation !\n📄 Fiche complète gratuite, avec variantes et conseils d'animateur : https://animenpoche.fr/jeux/jeux-de-confiance/les-baguettes-aeriennes\n\n🎲 Plus de 1 600 jeux, des outils pour diriger un ACM et tout sur le BAFA / BAFD, gratuitement sur https://animenpoche.fr\n\n#centredeloisirs #animateur #BAFA #ACM #jeuxenfants #colo #periscolaire\n```"
+        }
+      }
     }
   },
   "carrousels": {
