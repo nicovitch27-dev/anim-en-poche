@@ -2490,6 +2490,44 @@
           "a_faire": "📌 **Pinterest** (à poster à la main, 2 min) :\n1. Télécharge la vidéo : https://raw.githubusercontent.com/nicovitch27-dev/anim-en-poche/claude/confident-archimedes-d6w5qr/motion/videos-realisees/1695-ferme-bruyante/1695%20-%20La%20Ferme%20Bruyante%20-%20TIKTOK.mp4\n2. Appli Pinterest → **+** → **Épingle** → choisis la vidéo\n3. **Titre** : `La Ferme Bruyante : jeu pour enfants, les règles en 1 minute`\n4. **Lien** : `https://animenpoche.fr/jeux/jeux-de-confiance/la-ferme-bruyante`\n5. **Description** : colle le bloc ci-dessous, choisis le tableau, puis **Publier**\n```\nLa Ferme Bruyante : la règle du jeu en vidéo, prête à animer avec ton groupe en accueil de loisirs, en périscolaire, à l'école ou en colo. 📌 Enregistre-la pour ta prochaine animation !\n📄 Fiche complète gratuite, avec variantes et conseils d'animateur : https://animenpoche.fr/jeux/jeux-de-confiance/la-ferme-bruyante\n\n🎲 Plus de 1 600 jeux, des outils pour diriger un ACM et tout sur le BAFA / BAFD, gratuitement sur https://animenpoche.fr\n\n#centredeloisirs #animateur #BAFA #ACM #jeuxenfants #colo #periscolaire\n```"
         }
       }
+    },
+    "1696-bulle-rassurante": {
+      "date": "2026-11-18",
+      "creneau": 12,
+      "titre": "La Bulle Rassurante",
+      "resultats": {
+        "youtube": {
+          "ok": true,
+          "id": "ZnxtjKHxeP0",
+          "lien": "https://youtu.be/ZnxtjKHxeP0",
+          "note": "(miniature ok) (playlist « Jeux de confiance pour enfants : les règles en vidéo »)"
+        },
+        "youtube_short": {
+          "ok": true,
+          "id": "Hj1Z_jSNZTw",
+          "lien": "https://youtu.be/Hj1Z_jSNZTw"
+        },
+        "tiktok": {
+          "ok": false,
+          "erreur": "500 Server Error: Internal Server Error for url: https://open-upload-i18n.tiktokapis.com/upload?upload_id=7709464940083628054&upload_token=56948339-2588-0692-f91f-91d1d74a1678"
+        },
+        "instagram": {
+          "ok": true,
+          "id": "17992295526069280",
+          "lien": "https://www.instagram.com/reel/Df4We5Vioo5/"
+        },
+        "facebook": {
+          "ok": true,
+          "id": "1156157804049210",
+          "lien": "https://www.facebook.com/reel/1156157804049210",
+          "note": "(couverture ok)"
+        },
+        "pinterest": {
+          "ok": true,
+          "note": "(manuel : kit envoyé sur Discord)",
+          "a_faire": "📌 **Pinterest** (à poster à la main, 2 min) :\n1. Télécharge la vidéo : https://raw.githubusercontent.com/nicovitch27-dev/anim-en-poche/claude/confident-archimedes-d6w5qr/motion/videos-realisees/1696-bulle-rassurante/1696%20-%20La%20Bulle%20Rassurante%20-%20TIKTOK.mp4\n2. Appli Pinterest → **+** → **Épingle** → choisis la vidéo\n3. **Titre** : `La Bulle Rassurante : jeu pour enfants, les règles en 1 minute`\n4. **Lien** : `https://animenpoche.fr/jeux/jeux-de-confiance/la-bulle-rassurante`\n5. **Description** : colle le bloc ci-dessous, choisis le tableau, puis **Publier**\n```\nLa Bulle Rassurante : la règle du jeu en vidéo, prête à animer avec ton groupe en accueil de loisirs, en périscolaire, à l'école ou en colo. 📌 Enregistre-la pour ta prochaine animation !\n📄 Fiche complète gratuite, avec variantes et conseils d'animateur : https://animenpoche.fr/jeux/jeux-de-confiance/la-bulle-rassurante\n\n🎲 Plus de 1 600 jeux, des outils pour diriger un ACM et tout sur le BAFA / BAFD, gratuitement sur https://animenpoche.fr\n\n#centredeloisirs #animateur #BAFA #ACM #jeuxenfants #colo #periscolaire\n```"
+        }
+      }
     }
   },
   "carrousels": {
