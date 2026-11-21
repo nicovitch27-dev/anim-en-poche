@@ -2728,6 +2728,46 @@
           "a_faire": "📌 **Pinterest** (à poster à la main, 2 min) :\n1. Télécharge la vidéo : https://raw.githubusercontent.com/nicovitch27-dev/anim-en-poche/claude/confident-archimedes-d6w5qr/motion/videos-realisees/1701-evades/1701%20-%20Les%20%C3%89vad%C3%A9s%20-%20TIKTOK.mp4\n2. Appli Pinterest → **+** → **Épingle** → choisis la vidéo\n3. **Titre** : `Les Évadés : jeu pour enfants, les règles en 1 minute`\n4. **Lien** : `https://animenpoche.fr/jeux/jeux-cooperatifs/les-evades`\n5. **Description** : colle le bloc ci-dessous, choisis le tableau, puis **Publier**\n```\nLes Évadés : la règle du jeu en vidéo, prête à animer avec ton groupe en accueil de loisirs, en périscolaire, à l'école ou en colo. 📌 Enregistre-la pour ta prochaine animation !\n📄 Fiche complète gratuite, avec variantes et conseils d'animateur : https://animenpoche.fr/jeux/jeux-cooperatifs/les-evades\n\n🎲 Plus de 1 600 jeux, des outils pour diriger un ACM et tout sur le BAFA / BAFD, gratuitement sur https://animenpoche.fr\n\n#centredeloisirs #animateur #BAFA #ACM #jeuxenfants #colo #periscolaire\n```"
         }
       }
+    },
+    "1702-radeaux": {
+      "date": "2026-11-21",
+      "creneau": 12,
+      "titre": "Les Radeaux",
+      "resultats": {
+        "youtube": {
+          "ok": true,
+          "id": "CshJZvF-HCU",
+          "lien": "https://youtu.be/CshJZvF-HCU",
+          "note": "(miniature ok) (playlist « Jeux coopératifs pour enfants : les règles en vidéo »)"
+        },
+        "youtube_short": {
+          "ok": true,
+          "id": "QyBsrJFwjD8",
+          "lien": "https://youtu.be/QyBsrJFwjD8"
+        },
+        "tiktok": {
+          "ok": true,
+          "id": "v_inbox_file~v2.7710578202280855574",
+          "note": "(statut PROCESSING_UPLOAD)",
+          "a_faire": "📱 **TikTok** : ouvre l'appli → notification « brouillon » → colle la légende puis Publier :\n```\nLes Radeaux : la règle du jeu en vidéo, prête à animer avec ton groupe en accueil de loisirs, en périscolaire, à l'école ou en colo. 📌 Enregistre-la pour ta prochaine animation !\n📄 Fiche complète gratuite, avec variantes et conseils d'animateur : https://animenpoche.fr/jeux/jeux-cooperatifs/les-radeaux\n\n🎲 Plus de 1 600 jeux, des outils pour diriger un ACM et tout sur le BAFA / BAFD, gratuitement sur https://animenpoche.fr\n\n#centredeloisirs #animateur #BAFA #ACM #jeuxenfants #colo #periscolaire\n```"
+        },
+        "instagram": {
+          "ok": true,
+          "id": "17892792798687680",
+          "lien": "https://www.instagram.com/reel/DgAFb1SjoGt/"
+        },
+        "facebook": {
+          "ok": true,
+          "id": "3358718637655473",
+          "lien": "https://www.facebook.com/reel/3358718637655473",
+          "note": "(couverture ok)"
+        },
+        "pinterest": {
+          "ok": true,
+          "note": "(manuel : kit envoyé sur Discord)",
+          "a_faire": "📌 **Pinterest** (à poster à la main, 2 min) :\n1. Télécharge la vidéo : https://raw.githubusercontent.com/nicovitch27-dev/anim-en-poche/claude/confident-archimedes-d6w5qr/motion/videos-realisees/1702-radeaux/1702%20-%20Les%20Radeaux%20-%20TIKTOK.mp4\n2. Appli Pinterest → **+** → **Épingle** → choisis la vidéo\n3. **Titre** : `Les Radeaux : jeu pour enfants, les règles en 1 minute`\n4. **Lien** : `https://animenpoche.fr/jeux/jeux-cooperatifs/les-radeaux`\n5. **Description** : colle le bloc ci-dessous, choisis le tableau, puis **Publier**\n```\nLes Radeaux : la règle du jeu en vidéo, prête à animer avec ton groupe en accueil de loisirs, en périscolaire, à l'école ou en colo. 📌 Enregistre-la pour ta prochaine animation !\n📄 Fiche complète gratuite, avec variantes et conseils d'animateur : https://animenpoche.fr/jeux/jeux-cooperatifs/les-radeaux\n\n🎲 Plus de 1 600 jeux, des outils pour diriger un ACM et tout sur le BAFA / BAFD, gratuitement sur https://animenpoche.fr\n\n#centredeloisirs #animateur #BAFA #ACM #jeuxenfants #colo #periscolaire\n```"
+        }
+      }
     }
   },
   "carrousels": {
@@ -2783,6 +2823,12 @@
       "date": "2026-11-17",
       "titre": "8 bricolages de pirates faciles 🏴‍☠️",
       "id": "p_inbox_url~v2.7709095620195502102",
+      "statut": "SEND_TO_USER_INBOX"
+    },
+    "automne-4": {
+      "date": "2026-11-21",
+      "titre": "8 bricolages d'automne à tester 🍂",
+      "id": "p_inbox_url~v2.7710579795628935190",
       "statut": "SEND_TO_USER_INBOX"
     }
   }
