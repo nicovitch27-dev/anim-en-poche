@@ -3008,6 +3008,46 @@
           "a_faire": "📌 **Pinterest** (à poster à la main, 2 min) :\n1. Télécharge la vidéo : https://raw.githubusercontent.com/nicovitch27-dev/anim-en-poche/claude/confident-archimedes-d6w5qr/motion/videos-realisees/1708-souris-amoureuses/1708%20-%20Les%20Souris%20Amoureuses%20-%20TIKTOK.mp4\n2. Appli Pinterest → **+** → **Épingle** → choisis la vidéo\n3. **Titre** : `Les Souris Amoureuses : jeu pour enfants, les règles en 1 minute`\n4. **Lien** : `https://animenpoche.fr/jeux/jeux-de-poursuite/les-souris-amoureuses`\n5. **Description** : colle le bloc ci-dessous, choisis le tableau, puis **Publier**\n```\nLes Souris Amoureuses : la règle du jeu en vidéo, prête à animer avec ton groupe en accueil de loisirs, en périscolaire, à l'école ou en colo. 📌 Enregistre-la pour ta prochaine animation !\n📄 Fiche complète gratuite, avec variantes et conseils d'animateur : https://animenpoche.fr/jeux/jeux-de-poursuite/les-souris-amoureuses\n\n🎲 Plus de 1 600 jeux, des outils pour diriger un ACM et tout sur le BAFA / BAFD, gratuitement sur https://animenpoche.fr\n\n#centredeloisirs #animateur #BAFA #ACM #jeuxenfants #colo #periscolaire\n```"
         }
       }
+    },
+    "1709-demenagement": {
+      "date": "2026-11-24",
+      "creneau": 18,
+      "titre": "Le Déménagement",
+      "resultats": {
+        "youtube": {
+          "ok": true,
+          "id": "Re3ulqnl_SY",
+          "lien": "https://youtu.be/Re3ulqnl_SY",
+          "note": "(miniature ok) (playlist « Jeux coopératifs pour enfants : les règles en vidéo »)"
+        },
+        "youtube_short": {
+          "ok": true,
+          "id": "C0c8p0bYMZw",
+          "lien": "https://youtu.be/C0c8p0bYMZw"
+        },
+        "tiktok": {
+          "ok": true,
+          "id": "v_inbox_file~v2.7711784127145560086",
+          "note": "(statut PROCESSING_UPLOAD)",
+          "a_faire": "📱 **TikTok** : ouvre l'appli → notification « brouillon » → colle la légende puis Publier :\n```\nLe Déménagement : la règle du jeu en vidéo, prête à animer avec ton groupe en accueil de loisirs, en périscolaire, à l'école ou en colo. 📌 Enregistre-la pour ta prochaine animation !\n📄 Fiche complète gratuite, avec variantes et conseils d'animateur : https://animenpoche.fr/jeux/jeux-cooperatifs/le-demenagement\n\n🎲 Plus de 1 600 jeux, des outils pour diriger un ACM et tout sur le BAFA / BAFD, gratuitement sur https://animenpoche.fr\n\n#centredeloisirs #animateur #BAFA #ACM #jeuxenfants #colo #periscolaire\n```"
+        },
+        "instagram": {
+          "ok": true,
+          "id": "17997533316068015",
+          "lien": "https://www.instagram.com/reel/DgIdK0gjMpm/"
+        },
+        "facebook": {
+          "ok": true,
+          "id": "2597606020745440",
+          "lien": "https://www.facebook.com/reel/2597606020745440",
+          "note": "(couverture ok)"
+        },
+        "pinterest": {
+          "ok": true,
+          "note": "(manuel : kit envoyé sur Discord)",
+          "a_faire": "📌 **Pinterest** (à poster à la main, 2 min) :\n1. Télécharge la vidéo : https://raw.githubusercontent.com/nicovitch27-dev/anim-en-poche/claude/confident-archimedes-d6w5qr/motion/videos-realisees/1709-demenagement/1709%20-%20Le%20D%C3%A9m%C3%A9nagement%20-%20TIKTOK.mp4\n2. Appli Pinterest → **+** → **Épingle** → choisis la vidéo\n3. **Titre** : `Le Déménagement : jeu pour enfants, les règles en 1 minute`\n4. **Lien** : `https://animenpoche.fr/jeux/jeux-cooperatifs/le-demenagement`\n5. **Description** : colle le bloc ci-dessous, choisis le tableau, puis **Publier**\n```\nLe Déménagement : la règle du jeu en vidéo, prête à animer avec ton groupe en accueil de loisirs, en périscolaire, à l'école ou en colo. 📌 Enregistre-la pour ta prochaine animation !\n📄 Fiche complète gratuite, avec variantes et conseils d'animateur : https://animenpoche.fr/jeux/jeux-cooperatifs/le-demenagement\n\n🎲 Plus de 1 600 jeux, des outils pour diriger un ACM et tout sur le BAFA / BAFD, gratuitement sur https://animenpoche.fr\n\n#centredeloisirs #animateur #BAFA #ACM #jeuxenfants #colo #periscolaire\n```"
+        }
+      }
     }
   },
   "carrousels": {
